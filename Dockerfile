@@ -36,8 +36,6 @@ COPY ./timezone /etc/timezone
 
 RUN chmod 755 /startup.sh && \
     chmod +s /startup.sh && \
-    chmod 755 /pre_startup.sh && \
-    chmod +s /pre_startup.sh && \
     groupadd -g 5000 oim && \
     useradd -g 5000 -u 5000 oim -s /bin/bash -d /app && \
     usermod -a -G sudo oim && \
@@ -63,7 +61,6 @@ RUN cd /tmp/azcopy/ ; tar -xzvf azcopy.tar.gz
 RUN cp /tmp/azcopy/azcopy_linux_amd64_10.26.0/azcopy /bin/azcopy
 RUN chmod 755 /bin/azcopy
 
-# RUN chmod 755 /pre_startup.sh
 # Install Python libs from requirements.txt.
 FROM builder_base_govapp as python_libs_govapp
 

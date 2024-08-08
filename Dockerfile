@@ -63,7 +63,7 @@ RUN cd /tmp/azcopy/ ; tar -xzvf azcopy.tar.gz
 RUN cp /tmp/azcopy/azcopy_linux_amd64_10.26.0/azcopy /bin/azcopy
 RUN chmod 755 /bin/azcopy
 
-RUN chmod 755 /pre_startup.sh
+# RUN chmod 755 /pre_startup.sh
 # Install Python libs from requirements.txt.
 FROM builder_base_govapp as python_libs_govapp
 
@@ -73,13 +73,12 @@ RUN virtualenv /app/venv
 ENV PATH=/app/venv/bin:$PATH
 RUN whereis python
 COPY --chown=oim:oim requirements.txt ./
-COPY --chown=oim:oim src src
 COPY --chown=oim:oim .git .git
-COPY --chown=oim:oim package.json ./
+
 # COPY --chown=oim:oim package-lock.json ./
-COPY --chown=oim:oim profile.py ./
+
 RUN pip3 install -r requirements.txt
-RUN pip3 install npm
+
 #\ && rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 
 RUN npm install --loglevel verbose
@@ -90,7 +89,7 @@ FROM python_libs_govapp
 COPY --chown=oim:oim gunicorn.ini manage.py ./
 RUN touch /app/.env
 
-RUN python manage.py collectstatic --noinput
+# RUN python manage.py collectstatic --noinput
 
 RUN mkdir /app/tmp/
 RUN chmod 777 /app/tmp/

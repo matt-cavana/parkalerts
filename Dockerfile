@@ -74,7 +74,7 @@ COPY --chown=oim:oim .git .git
 
 # COPY --chown=oim:oim package-lock.json ./
 
-RUN pip install -r requirements.txt
+# RUN pip install -r requirements.txt
 
 #\ && rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 

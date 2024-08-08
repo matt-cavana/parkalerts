@@ -1,6 +1,6 @@
 {
 	"name": "Park Alerts",
-	"image": "dbcawa/docker_app_dev:park_alerts_dev_latest",
+	"image": "dbcawa/docker_app_dev:parkalerts_dev_latest",
 	"remoteUser": "container",
 	"workspaceFolder": "/data/data/projects/parkalerts",
 	"mounts": ["type=bind,source=/data/,target=/data/",

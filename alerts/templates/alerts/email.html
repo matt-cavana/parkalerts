@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .email-container {
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .email-header {
+            background-color: #003E52;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            text-align: center;
+        }
+        .email-content {
+            padding: 20px;
+        }
+        .email-footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>New Alert Published</h1>
+        <div class="alert-details">
+            <p><strong>Title:</strong> {{ alert.title }}</p>
+            <p><strong>Type:</strong> {{ alert.alert_type.name }}</p>
+            <p><strong>Location:</strong> {{ alert.location.name }}</p>
+            <p><strong>Details:</strong> {{ alert.details|safe }}</p>
+            <p><strong>Publish Date:</strong> {{ alert.publish_date }}</p>
+            <p><strong>Start Date:</strong> {{ alert.start_date }}</p>
+            <p><strong>End Date:</strong> {{ alert.end_date }}</p>
+            {% if alert.attachment %}
+            <p><strong>Attachment:</strong> <a href="{{ alert.attachment.url }}" target="_blank">{{ alert.attachment.name }}</a></p>
+            {% endif %}
+        </div>
+        <p>Regards,</p>
+        <p>Park Alerts Team</p>
+    </div>
+</body>
+</html>
+

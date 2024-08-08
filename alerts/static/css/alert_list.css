@@ -1,0 +1,201 @@
+/* alert_list.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-list {
+    flex: 1;
+    padding-top: 140px; /* Increased padding to clear the toggle buttons */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Add the same styles we used for the home_page to alert_list.css */
+.toggle-buttons-container {
+    display: flex;
+    align-items: center; /* Ensure vertical alignment */
+    justify-content: flex-start; /* Align buttons to the left */
+    width: 100%; /* Full width */
+    background-color: var(--color-sand); /* Ensure background matches page background */
+    padding: 10px 0;
+    position: fixed;
+    top: 80px; /* Adjust based on header height */
+    z-index: 999; /* Ensure toggle-buttons are below header but above content */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.toggle-buttons button {
+    background-color: var(--color-light-grey);
+    border: 1px solid var(--color-ocean);
+    color: var(--color-ocean);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: -1px; /* Ensure borders are not doubled */
+}
+
+    .toggle-buttons button.active {
+        background-color: var(--color-ocean);
+        color: var(--color-white);
+    }
+
+    .toggle-buttons button:not(:last-child) {
+        border-right: none; /* Remove right border for all buttons except the last one */
+    }
+
+#searchBox {
+    padding: 10px;
+    border: 1px solid var(--color-ocean);
+    border-radius: 5px;
+    margin-left: 20px; /* Add space between the button and search box */
+    width: 200px;
+}
+
+/* Style for the Create Alert button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-turquoise);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: var(--color-ocean);
+    }
+
+.btn-primary {
+    background-color: var(--color-turquoise);
+    color: var(--color-white);
+}
+
+    .btn-primary:hover {
+        background-color: var(--color-ocean);
+    }
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+    margin-top: 100px; /* Added margin to provide extra space below the toggle buttons */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+    table th, table td {
+        padding: 12px 12px;
+        border: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: var(--color-ocean);
+        color: #ffffff;
+    }
+
+    table tr:nth-child(even) {
+        background-color: var(--color-sand);
+    }
+
+    table tr:nth-child(odd) {
+        background-color: var(--color-white);
+    }
+
+.alert-icon-column {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.alert-icon {
+    max-width: 40px; /* Adjust max size as needed */
+    max-height: 40px; /* Adjust max size as needed */
+}
+
+/* Style for the delete modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative; /* Ensure close button is positioned correctly */
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    border: none; /* Remove background and border */
+    background: none; /* Remove background and border */
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Ensure buttons have proper styling */
+.modal-buttons {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px; /* Add space between buttons */
+    margin-top: 20px; /* Add margin to separate from text */
+}
+
+    .modal-buttons button {
+        background-color: var(--color-sand);
+        border: 1px solid var(--color-ocean);
+        color: var(--color-ocean);
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        .modal-buttons button:hover {
+            background-color: var(--color-ocean);
+            color: var(--color-white);
+        }
+
+footer {
+    background-color: var(--color-bushland);
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    color: var(--color-white);
+    margin: 0 10px;
+    text-decoration: none;
+}

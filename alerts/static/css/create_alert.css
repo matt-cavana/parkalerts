@@ -1,0 +1,115 @@
+/* Ensure the body and html take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox for main layout */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start to prevent overlap with header */
+    height: calc(100vh - 120px);
+    box-sizing: border-box;
+    padding-top: 160px; /* Increase padding to ensure content doesn't overlap with header */
+}
+
+/* Centering content in the main content area */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width and height */
+}
+
+/* Main content should expand to fill the available space */
+.main-content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    max-width: 800px; /* Optional max-width for the form container */
+    padding: 20px; /* Optional padding for the main content */
+    box-sizing: border-box; /* Ensure padding is included in the total width and height */
+}
+
+/* Form section styling */
+.form-section {
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+    .form-section h1 {
+        color: var(--color-ocean);
+        margin-bottom: 20px;
+    }
+
+    .form-section form {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .form-section form p {
+            margin-bottom: 10px;
+        }
+
+        .form-section form input,
+        .form-section form select,
+        .form-section form textarea {
+            padding: 10px;
+            border: 1px solid var(--color-ocean);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+        .form-section form button {
+            background-color: var(--color-turquoise);
+            color: var(--color-white);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .form-section form button:hover {
+                background-color: var(--color-ocean);
+            }
+
+        .form-section form textarea {
+            padding: 10px;
+            border: 1px solid var(--color-ocean);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: auto; /* Allow the height to be controlled by the form widget */
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+        .form-section form .field-published {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            .form-section form .field-published label {
+                margin-right: 5px; /* Reduced margin to bring the label closer to the checkbox */
+                font-weight: bold;
+                margin-bottom: 0; /* Ensure there's no bottom margin on the label */
+            }
+
+            .form-section form .field-published input {
+                margin-left: 0; /* Ensure there's no left margin on the input */
+                margin-top: 0; /* Ensure there's no top margin on the input */
+            }

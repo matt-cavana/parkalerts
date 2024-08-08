@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkAlerts</title>
+    {% load static %}
+    {% load filters %}
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/alerts.css' %}">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@mapbox/togeojson@0.16.2/togeojson.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{% static 'images/logo.png' %}" alt="ParkAlerts Logo">
+            <span class="logo-text">Park Alerts</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home_page' %}">Home</a></li>
+                <li><a href="{% url 'alert_list' %}">Alerts</a></li>
+                <li><a href="{% url 'alert_map' %}">Map</a></li>
+                <li><a href="{% url 'contacts' %}">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="toggle-buttons-container">
+        <div class="toggle-buttons">
+            <button id="bothButton" data-url="{% url 'home_page' %}">Both</button>
+            <button id="mapButton" data-url="{% url 'alert_map' %}">Map</button>
+            <button id="listButton" data-url="{% url 'alert_list' %}">List</button>
+        </div>
+        <input type="text" id="searchBox" placeholder="Search alerts..." />
+    </div>
+    <main>
+        <div id="alertModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalDetails"></div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div id="map" style="width: 100%; height: 100%;"></div>
+            <div id="expand" style="position: absolute; bottom: 60px; right: 20px; z-index: 1;">
+                <button style="background-color: white; border: none; cursor: pointer; padding: 10px; border-radius: 5px;">
+                    <img src="{% static 'images/expand.png' %}" alt="Full Zoom" style="width: 24px; height: 24px;">
+                </button>
+            </div>
+            <div id="wmsToggleContainer">
+                <label class="switch">
+                    <input type="checkbox" id="wmsToggle" checked>
+                    <span class="slider round"></span>
+                </label>
+                <label for="wmsToggle">Trails</label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="https://dbca.wa.gov.au">Copyright © 2024 Department of Biodiversity, Conservation and Attractions. All Rights Reserved.  Version: 1.0 alpha</a>
+            <!--<a href="#">Contact Us</a>
+            <a href="#">Legal Disclaimer</a>
+            <a href="#">Privacy Policy</a>-->
+        </div>
+    </footer>
+    <script id="alerts-data" type="application/json">{{ alerts_json|safe }}</script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js'></script>
+    <script src="{% static 'js/alerts.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+New Alert Published
+
+Title: {{ title }}
+Type: {{ alert_type }}
+Location: {{ location }}
+Details: {{ details }}
+Publish Date: {{ publish_date }}
+Start Date: {{ start_date }}
+End Date: {{ end_date }}
+
+Regards,
+Park Alerts Team
+

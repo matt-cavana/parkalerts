@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Map</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <section class="current-alerts">
+                <h1>Current Alerts</h1>
+                <!-- Alerts content here -->
+            </section>
+        </div>
+        <div class="right-panel">
+            <div id="map"></div>
+        </div>
+    </div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js'></script>
+    <script>mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dC1jYXZhbmEiLCJhIjoiY2xna3AyeTdnMHVpZTNvbHZ5dnJmbzg1dSJ9.W4ztKJK-2kSbtsjsRZ-srw';
+
+        function initializeMap() {
+            const mapContainer = document.getElementById('map');
+            if (mapContainer) {
+                console.log("Initializing map...");
+                const map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/mapbox/streets-v12',
+                    center: [122.0, -23.0],
+                    zoom: 5
+                });
+
+                map.on('load', function () {
+                    console.log("Map loaded");
+                    map.resize();
+                });
+
+                window.addEventListener('resize', function () {
+                    map.resize();
+                });
+            } else {
+                console.error("Map container not found");
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeMap);</script>
+</body>
+</html>

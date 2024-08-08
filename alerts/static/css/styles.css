@@ -1,0 +1,417 @@
+/* styles.css */
+
+:root {
+    --color-ocean: #003E52;
+    --color-turquoise: #00818F;
+    --color-bushland: #546E00;
+    --color-earth: #B8591F;
+    --color-sand: #EDE5D9;
+    --color-white: #FFFFFF;
+    --color-light-grey: #F0F0F0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-sand);
+    color: var(--color-ocean);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure header is on top */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img {
+        height: 60px;
+        width: auto;
+    }
+
+.logo-text {
+    color: var(--color-white);
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.accessibility-options {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+    }
+
+        nav ul li a {
+            color: var(--color-white);
+            text-decoration: none;
+        }
+
+.accessibility-options button {
+    background-color: var(--color-turquoise);
+    color: var(--color-white);
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.toggle-buttons-container {
+    display: flex;
+    align-items: center; /* Ensure vertical alignment */
+    justify-content: flex-start; /* Align buttons to the left */
+    width: 100%; /* Full width */
+    background-color: var(--color-sand); /* Ensure background matches page background */
+    padding: 10px 0;
+    position: fixed;
+    top: 80px; /* Adjust based on header height */
+    z-index: 999; /* Ensure toggle-buttons are below header but above content */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    padding-left: 20px; /* Adjust based on the size of the left panel */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+    .toggle-buttons button {
+        background-color: var(--color-light-grey) !important; /* Update to light grey */
+        border: 1px solid var(--color-ocean);
+        color: var(--color-ocean);
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-right: -1px;
+    }
+
+        .toggle-buttons button.active {
+            background-color: var(--color-ocean) !important;
+            color: var(--color-white) !important;
+        }
+
+        .toggle-buttons button:not(:last-child) {
+            border-right: none;
+        }
+
+        .toggle-buttons button:hover {
+            background-color: #E0E0E0; /* Slightly darker grey for hover */
+        }
+
+#searchBox {
+    padding: 10px;
+    border: 1px solid var(--color-ocean);
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    height: calc(100vh - 120px);
+    box-sizing: border-box;
+    padding-top: 140px; /* Add padding to ensure content doesn't overlap with fixed elements */
+}
+
+.left-panel {
+    width: 30%;
+    background-color: var(--color-sand);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.right-panel {
+    flex: 1;
+    height: 100%;
+    background-color: var(--color-sand);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#wmsToggleContainer {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 9999; /* Ensure this is high enough to be above other elements */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better visibility */
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+    input:checked + .slider:before {
+        transform: translateX(14px);
+    }
+
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+
+footer {
+    background-color: var(--color-bushland);
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    color: var(--color-white);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    table th, table td {
+        border: 1px solid var(--color-ocean);
+        padding: 10px;
+        text-align: left;
+    }
+
+    table th {
+        background-color: var(--color-ocean);
+        color: var(--color-white);
+    }
+
+    table tr:nth-child(even) {
+        background-color: var(--color-sand);
+    }
+
+    table tr:nth-child(odd) {
+        background-color: var(--color-white);
+    }
+
+.current-alerts, .interactive-map, .incident-details {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: var(--color-earth);
+    color: var(--color-white);
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--color-white);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: var(--color-turquoise);
+}
+
+.btn-danger {
+    background-color: var(--color-earth);
+}
+
+.btn-secondary {
+    background-color: var(--color-bushland);
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-type-primary {
+    color: var(--color-ocean);
+}
+
+.xs\:text-xl {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.alert-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.alert-item {
+    cursor: pointer;
+    margin-bottom: 15px; /* Add some spacing between list items if needed */
+    background-color: #f0f0f0; /* Light grey background for the whole alert item */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon-container {
+    width: 50px; /* Set a fixed width for the icon container */
+    height: 50px; /* Set a fixed height for the icon container */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #f0f0f0; /* Light grey background for the icon container */
+}
+
+.alert-icon {
+    width: 100%; /* Ensure icons take up the full container size */
+    height: 100%;
+    object-fit: contain; /* Ensure icons maintain their aspect ratio */
+}
+
+.alert-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allow details to take the remaining space */
+}
+
+    .alert-details p {
+        margin: 2px 0; /* Decrease margin between paragraphs */
+    }
+
+.alert-title {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#alertModal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+    #alertModal .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    #alertModal .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+        #alertModal .close:hover,
+        #alertModal .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }

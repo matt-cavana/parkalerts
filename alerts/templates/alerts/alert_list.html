@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alert List</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+    <link rel="stylesheet" href="{% static 'css/alerts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/alert_list.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        var csrfToken = '{{ csrf_token }}';
+    </script>
+    <style>
+        .action-button {
+            position: relative;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: #000;
+            padding: 5px;
+        }
+
+            .action-button .action-text {
+                display: none;
+                position: absolute;
+                bottom: 100%; /* Position above the button */
+                left: 50%;
+                transform: translateX(-50%);
+                white-space: nowrap;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: #fff;
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-size: 14px;
+                z-index: 1;
+            }
+
+            .action-button:hover .action-text {
+                display: inline-block;
+            }
+
+        .published-status {
+            text-align: center;
+        }
+
+            .published-status img {
+                width: 16px; /* Adjust the size as needed */
+                height: 16px; /* Adjust the size as needed */
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{% static 'images/logo.png' %}" alt="ParkAlerts Logo">
+            <span class="logo-text">Park Alerts</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home_page' %}">Home</a></li>
+                <li><a href="{% url 'alert_list' %}">Alerts</a></li>
+                <li><a href="{% url 'alert_map' %}">Map</a></li>
+                <li><a href="{% url 'contacts' %}">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="toggle-buttons-container">
+        <div class="toggle-buttons">
+            <button id="bothButton" data-url="{% url 'home_page' %}">Both</button>
+            <button id="mapButton" data-url="{% url 'alert_map' %}">Map</button>
+            <button id="listButton" data-url="{% url 'alert_list' %}">List</button>
+        </div>
+        <input type="text" id="searchBox" placeholder="Search alerts..." />
+    </div>
+    <main class="main-list">
+        <div class="table-container">
+            <h1>Alert List</h1>
+            <a href="{% url 'create_alert' %}" class="btn btn-primary"> + Create Alert</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Alert Type</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Published</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for alert in alerts %}
+                    <tr class="alert-item" data-title="{{ alert.title }}" data-location="{{ alert.location }}" data-details="{{ alert.details }}">
+                        <td class="alert-icon-column">
+                            <div class="icon-container">
+                                <img src="{% static alert.alert_type.icon_url %}" alt="{{ alert.alert_type }} Icon" class="alert-icon">
+                            </div>
+                        </td>
+                        <td>{{ alert.title }}</td>
+                        <td>{{ alert.details|safe }}</td>
+                        <td>{{ alert.start_date }}</td>
+                        <td>{{ alert.end_date }}</td>
+                        <td class="published-status">
+                            {% if alert.published %}
+                            <img src="{% static 'images/green-dot.png' %}" alt="Published">
+                            {% else %}
+                            <img src="{% static 'images/red-dot.png' %}" alt="Not Published">
+                            {% endif %}
+                        </td>
+                        <td>
+                            <button class="action-button delete-btn" data-id="{{ alert.id }}">
+                                <i class="fa-regular fa-trash-can"></i>
+                                <span class="action-text">Delete</span>
+                            </button>
+                            {% if alert.published %}
+                            <button class="action-button unpublish-button" data-id="{{ alert.id }}">
+                                <i class="fa-regular fa-eye-slash"></i>
+                                <span class="action-text">Unpublish</span>
+                            </button>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% include "alerts/delete_modal.html" %}
+            {% if not alerts %}
+            <p>No alerts available.</p>
+            {% endif %}
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="https://dbca.wa.gov.au">Copyright © 2024 Department of Biodiversity, Conservation and Attractions. All Rights Reserved.  Version: 1.0 alpha</a>
+            <!--<a href="#">Contact Us</a>
+            <a href="#">Legal Disclaimer</a>
+            <a href="#">Privacy Policy</a>-->
+        </div>
+    </footer>
+    <script src="{% static 'js/delete_alert.js' %}"></script>
+    <script src="{% static 'js/alert_list.js' %}"></script>
+</body>
+</html>

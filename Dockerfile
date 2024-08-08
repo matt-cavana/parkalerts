@@ -77,12 +77,10 @@ COPY --chown=oim:oim .git .git
 
 # COPY --chown=oim:oim package-lock.json ./
 
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
 #\ && rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 
-RUN npm install --loglevel verbose
-RUN npm run build
 
 # Install the project (ensure that frontend projects have been built prior to this step).
 FROM python_libs_govapp

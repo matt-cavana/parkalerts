@@ -1,0 +1,15 @@
+{
+	"name": "Park Alerts",
+	"image": "dbcawa/docker_app_dev:park_alerts_dev_latest",
+	"remoteUser": "container",
+	"workspaceFolder": "/data/data/projects/parkalerts",
+	"mounts": ["type=bind,source=/data/,target=/data/",
+	           "type=bind,source=/data/data/containerhome/,target=/home/container/"
+	          ],	
+	"appPort": [],
+	"runArgs": ["--env-file","${localEnv:HOME}/vscode-env/parkalerts.env",
+		   "--hostname","parkalerts-dev"
+		   ],
+	"forwardPorts": [],
+	"initializeCommand" : "${localEnv:HOME}/docker-scripts-dev/windows_vbox/postgres_docker_load_2404.sh"
+}

@@ -32,8 +32,8 @@ WORKDIR /app
 COPY python-cron python-cron
 COPY startup.sh /
 COPY ./timezone /etc/timezone
-COPY sss sss
-COPY packages packages
+
+
 RUN chmod 755 /startup.sh && \
     chmod +s /startup.sh && \
     chmod 755 /pre_startup.sh && \

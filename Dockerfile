@@ -84,11 +84,11 @@ FROM python_libs_govapp
 COPY --chown=oim:oim gunicorn.ini manage.py ./
 RUN touch /app/.env
 
-# RUN python manage.py collectstatic --noinput
+RUN python manage.py collectstatic --noinput
 
 RUN mkdir /app/tmp/
 RUN chmod 777 /app/tmp/
-
+RUN rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 # IPYTHONDIR - Will allow shell_plus (in Docker) to remember history between sessions
 # 1. will create dir, if it does not already exist
 # 2. will create profile, if it does not already exist

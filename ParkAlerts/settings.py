@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'alerts', # Your app
     'alerts.templatetags.filters',
     'tinymce',
+ 
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    # "wagov_utils.components.middleware.auth2_middleware.SSOLoginMiddleware",
     # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
@@ -148,12 +150,20 @@ INTERNAL_IPS = [
 ]
 
 # Email server configuration
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.lan.fyi'
-EMAIL_PORT = 25  # or 465 for SSL
-EMAIL_USE_TLS = False  # or False for SSL
-EMAIL_USE_SSL = False  # or True for SSL
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-DEFAULT_FROM_EMAIL = 'noreply@dbca.wa.gov.au'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.lan.fyi'
+# EMAIL_PORT = 25  # or 465 for SSL
+# EMAIL_USE_TLS = False  # or False for SSL
+# EMAIL_USE_SSL = False  # or True for SSL
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# DEFAULT_FROM_EMAIL = 'noreply@dbca.wa.gov.au'
 
+EMAIL_BACKEND = "wagov_utils.components.utils.email_backend.EmailBackend"
+EMAIL_HOST = decouple.config("EMAIL_HOST", default="smtp.lan.fyi")
+EMAIL_PORT = decouple.config("EMAIL_PORT", default=25, cast=int)
+DEFAULT_FROM_EMAIL = "no-reply@dbca.wa.gov.au"
+EMAIL_INSTANCE = decouple.config("EMAIL_INSTANCE", default="PROD")
+NON_PROD_EMAIL = decouple.config("NON_PROD_EMAIL", default="")
+PRODUCTION_EMAIL= decouple.config("PRODUCTION_EMAIL", default=False, cast=bool)
+EMAIL_DELIVERY = decouple.config("EMAIL_DELIVERY", default="off")

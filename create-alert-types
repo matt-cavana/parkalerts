@@ -1,0 +1,20 @@
+from alerts.models import AlertType
+
+# List of alert types with default descriptions and other fields
+alert_types = [
+    {'name': 'Bibbulmun Track', 'description': 'Bibbulmun Track closures', 'created_by': 'Admin', 'icon_url': 'images/icon-map-bibbulmun-track.png', 'slug': 'bibbulmun-track', 'status': 'Active'},
+    {'name': 'Cape to Cape Track', 'description': 'Cape to Cape closures', 'created_by': 'Admin', 'icon_url': 'images/icon-map-cape2cape-track.png', 'slug': 'cape-to-cape-track', 'status': 'Active'},
+    {'name': 'Commercial Operators Alert (NP)', 'description': 'Commercial operators alerts and notifications only used for email', 'created_by': 'Admin', 'icon_url': 'images/email.png', 'slug': 'commercial-operators-alert-np', 'status': 'Active'},
+    {'name': 'Crocodile Alerts', 'description': 'Crocodile alerts', 'created_by': 'Admin', 'icon_url': 'images/icon-map-crocodile-alert.png', 'slug': 'crocodile-alerts', 'status': 'Active'},
+    {'name': 'Jetski Alert', 'description': 'Jetski alerts', 'created_by': 'Admin', 'icon_url': 'images/icon-map-riverparks-alert4.png', 'slug': 'jetski-alert', 'status': 'Active'},
+    {'name': 'Munda Biddi Trail', 'description': 'Munda Biddi Trail closures and diversions.', 'created_by': 'Admin', 'icon_url': 'images/icon-map-munda-biddi.png', 'slug': 'munda-biddi-trail', 'status': 'Active'},
+    {'name': 'Other Trail Closures and Diversions', 'description': 'Trail closures and diversions on long trails', 'created_by': 'Admin', 'icon_url': 'images/icon-map-hiking-orange.png', 'slug': 'other-trail-closures-diversions', 'status': 'Active'},
+    {'name': 'Park Closures', 'description': 'Parks that are temporarily closed', 'created_by': 'Admin', 'icon_url': 'images/icon-map-park-closure-final.png', 'slug': 'park-closures', 'status': 'Active'},
+    {'name': 'Park Notification', 'description': 'General park notifications', 'created_by': 'Admin', 'icon_url': 'images/park-notification-1.png', 'slug': 'park-notification', 'status': 'Active'},
+    {'name': 'Park Road Closures', 'description': 'Park road closures', 'created_by': 'Admin', 'icon_url': 'images/icon-map-car.png', 'slug': 'park-road-closures', 'status': 'Active'},
+    {'name': 'Riverpark Alerts', 'description': 'Swan-Canning Riverpark alerts', 'created_by': 'Admin', 'icon_url': 'images/icon-map-riverparks-alert4.png', 'slug': 'riverpark-alerts', 'status': 'Active'},
+    {'name': 'Smoke Alerts', 'description': 'Smoke alerts', 'created_by': 'Admin', 'icon_url': 'images/icon-map-smoke-1.png', 'slug': 'smoke-alerts', 'status': 'Active'}
+]
+
+for at in alert_types:
+    AlertType.objects.create(**at)

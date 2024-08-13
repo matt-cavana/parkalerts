@@ -16,7 +16,7 @@ import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-# BASE_URL = 'http://127.0.0.1:8000'
+BASE_URL = 'http://0.0.0.0:8701'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -150,20 +150,20 @@ INTERNAL_IPS = [
 ]
 
 # Email server configuration
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.lan.fyi'
-# EMAIL_PORT = 25  # or 465 for SSL
-# EMAIL_USE_TLS = False  # or False for SSL
-# EMAIL_USE_SSL = False  # or True for SSL
-# EMAIL_HOST_USER = ''
-# EMAIL_HOST_PASSWORD = ''
-# DEFAULT_FROM_EMAIL = 'noreply@dbca.wa.gov.au'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.lan.fyi'
+EMAIL_PORT = 25  # or 465 for SSL
+EMAIL_USE_TLS = False  # or False for SSL
+EMAIL_USE_SSL = False  # or True for SSL
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+DEFAULT_FROM_EMAIL = 'noreply@dbca.wa.gov.au'
 
-EMAIL_BACKEND = "wagov_utils.components.utils.email_backend.EmailBackend"
-EMAIL_HOST = decouple.config("EMAIL_HOST", default="smtp.lan.fyi")
-EMAIL_PORT = decouple.config("EMAIL_PORT", default=25, cast=int)
-DEFAULT_FROM_EMAIL = "no-reply@dbca.wa.gov.au"
-EMAIL_INSTANCE = decouple.config("EMAIL_INSTANCE", default="PROD")
-NON_PROD_EMAIL = decouple.config("NON_PROD_EMAIL", default="")
-PRODUCTION_EMAIL= decouple.config("PRODUCTION_EMAIL", default=False, cast=bool)
-EMAIL_DELIVERY = decouple.config("EMAIL_DELIVERY", default="off")
+# EMAIL_BACKEND = "wagov_utils.components.utils.email_backend.EmailBackend"
+# EMAIL_HOST = decouple.config("EMAIL_HOST", default="smtp.lan.fyi")
+# EMAIL_PORT = decouple.config("EMAIL_PORT", default=25, cast=int)
+# DEFAULT_FROM_EMAIL = "no-reply@dbca.wa.gov.au"
+# EMAIL_INSTANCE = decouple.config("EMAIL_INSTANCE", default="PROD")
+# NON_PROD_EMAIL = decouple.config("NON_PROD_EMAIL", default="")
+# PRODUCTION_EMAIL= decouple.config("PRODUCTION_EMAIL", default=False, cast=bool)
+# EMAIL_DELIVERY = decouple.config("EMAIL_DELIVERY", default="off")

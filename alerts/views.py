@@ -185,6 +185,8 @@ def create_alert(request):
 # List view for alerts sorted by descending start date
 def alert_list(request):
     alerts = Alert.objects.all().select_related('alert_type').order_by('-start_date')
+    for alert in alerts:
+        alert.time_elapsed = get_time_elapsed(alert.publish_date)
     return render(request, 'alerts/alert_list.html', {'alerts': alerts})
 
 # Send alert email if published

@@ -95,11 +95,13 @@ table {
     margin: 20px 0;
     font-size: 16px;
     text-align: left;
+    vertical-align: top;
 }
 
     table th, table td {
         padding: 12px 12px;
         border: 1px solid #ddd;
+        vertical-align: top;
     }
 
     table th {
@@ -117,19 +119,23 @@ table {
 
 .alert-icon-column {
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .icon-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 100%;
 }
 
 .alert-icon {
     max-width: 40px; /* Adjust max size as needed */
     max-height: 40px; /* Adjust max size as needed */
+}
+
+table td {
+    vertical-align: top;
 }
 
 /* Style for the delete modal */
@@ -199,3 +205,50 @@ footer {
     margin: 0 10px;
     text-decoration: none;
 }
+
+/* Responsive styles for mobile devices */ 
+
+@media (max-width: 768px) { 
+    .main-list { 
+        padding-top: 100px; 
+        padding: 10px; 
+    } 
+
+    .toggle-buttons-container { 
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 5px; 
+        position: relative; 
+        top: 0; 
+    } 
+
+    table, th, td { 
+        font-size: 14px; 
+        padding: 8px; 
+    } 
+
+    .btn { 
+        padding: 8px 12px; 
+        font-size: 14px; 
+    } 
+
+    .table-container { 
+        overflow-x: auto; 
+        margin-top: 50px; 
+    } 
+
+    .icon-container { 
+        width: 30px; 
+        height: 30px; 
+    } 
+
+    .modal-content { 
+        width: 90%; 
+        padding: 15px; 
+    } 
+
+    footer { 
+        padding: 8px; 
+        font-size: 12px; 
+    } 
+} 

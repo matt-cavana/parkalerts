@@ -39,7 +39,7 @@ $(document).ready(function () {
         mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dC1jYXZhbmEiLCJhIjoiY2xna3AyeTdnMHVpZTNvbHZ5dnJmbzg1dSJ9.W4ztKJK-2kSbtsjsRZ-srw';
         const map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v12',
+            style: 'mapbox://styles/mapbox/streets-v12?events=false',
             center: [122.298333, -25.328056],
             zoom: 5
         });

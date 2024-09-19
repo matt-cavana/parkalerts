@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{% static 'css/alerts.css' %}">
     <link rel="stylesheet" href="{% static 'css/alert_list.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         var csrfToken = '{{ csrf_token }}';
@@ -39,6 +40,10 @@
 
             .action-button:hover .action-text {
                 display: inline-block;
+            }
+
+            table td {
+                vertical-align: top;
             }
 
         .published-status {
@@ -86,6 +91,7 @@
                         <th>Details</th>
                         <th>Start Date</th>
                         <th>End Date</th>
+                        <th>Time Elapsed</th>
                         <th>Published</th>
                         <th>Actions</th>
                     </tr>
@@ -102,6 +108,7 @@
                         <td>{{ alert.details|safe }}</td>
                         <td>{{ alert.start_date }}</td>
                         <td>{{ alert.end_date }}</td>
+                        <td>{{ alert.time_elapsed }}</td>
                         <td class="published-status">
                             {% if alert.published %}
                             <img src="{% static 'images/green-dot.png' %}" alt="Published">

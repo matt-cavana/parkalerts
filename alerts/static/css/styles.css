@@ -415,3 +415,51 @@ aside {
             text-decoration: none;
             cursor: pointer;
         }
+
+/* Responsive styles for mobile devices */ 
+
+@media (max-width: 768px) { 
+    header { 
+        flex-direction: column; 
+        padding: 5px; 
+    } 
+
+    .logo-text { 
+        font-size: 18px; 
+    } 
+
+    .toggle-buttons-container { 
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 5px; 
+    } 
+
+    #searchBox { 
+        width: 150px; 
+    } 
+
+    main { 
+        flex-direction: column; 
+        padding-top: 80px; 
+    } 
+
+    .left-panel, .right-panel { 
+        width: 100%; 
+    } 
+
+    .btn { 
+        padding: 8px 12px; 
+        font-size: 14px; 
+    } 
+
+    footer { 
+        padding: 8px; 
+        font-size: 12px; 
+    } 
+
+    .alert-item { 
+        font-size: 0.8rem; 
+        padding: 8px; 
+    } 
+} 
+ 

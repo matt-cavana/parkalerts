@@ -12,6 +12,30 @@
     <script>
         var csrfToken = '{{ csrf_token }}';
     </script>
+    <script>
+        const unpublishUrl = "{% url 'unpublish_alert' %}";
+    
+        $(document).ready(function () {
+            $('.unpublish-button').click(function () {
+                var alertId = $(this).data('id');
+                $.ajax({
+                    url: unpublishUrl,  // Corrected URL without the alert_id in the path
+                    method: 'POST',
+                    data: {
+                        'id': alertId,
+                        'csrfmiddlewaretoken': '{{ csrf_token }}'
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload();
+                        } else {
+                            alert(response.message || 'Failed to unpublish the alert.');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
     <style>
         .action-button {
             position: relative;

@@ -93,7 +93,7 @@ $(document).ready(function () {
                 if (response.success) {
                     location.reload();
                 } else {
-                    alert('Failed to unpublish the alert.');
+                    alert(response.message || 'Failed to unpublish the alert.');
                 }
             }
         });

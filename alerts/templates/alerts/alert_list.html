@@ -128,8 +128,8 @@
                                 <img src="{% static alert.alert_type.icon_url %}" alt="{{ alert.alert_type }} Icon" class="alert-icon">
                             </div>
                         </td>
-                        <td>{{ alert.title }}</td>
-                        <td>{{ alert.details|safe }}</td>
+                        <td><b>{{ alert.alert_type }}</b><br>{{ alert.title }}</td>
+                        <td><span class="details-column">{{ alert.details|safe }}</span></td>
                         <td>{{ alert.start_date }}</td>
                         <td>{{ alert.end_date }}</td>
                         <td>{{ alert.time_elapsed }}</td>

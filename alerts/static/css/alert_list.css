@@ -109,6 +109,14 @@ table {
         color: #ffffff;
     }
 
+    table td {
+        vertical-align: top;
+    }
+
+    .details-column {
+        vertical-align: top;
+    }
+    
     table tr:nth-child(even) {
         background-color: var(--color-sand);
     }
@@ -132,10 +140,6 @@ table {
 .alert-icon {
     max-width: 40px; /* Adjust max size as needed */
     max-height: 40px; /* Adjust max size as needed */
-}
-
-table td {
-    vertical-align: top;
 }
 
 /* Style for the delete modal */

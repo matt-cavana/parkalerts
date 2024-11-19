@@ -40,7 +40,7 @@
     <main>
         <div id="alertModal" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
+                <span class="close">×</span>
                 <div id="modalDetails"></div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                                 <img src="{% static alert.alert_type.icon_url %}" alt="{{ alert.alert_type.name }} Icon" class="alert-icon">
                             </div>
                             <div class="alert-details">
-                                <h2 class="text-base font-medium text-type-primary xs:text-xl alert-title">{{ alert.title }}</h2>
+                                <h2 class="text-base font-medium text-type-primary xs:text-xl alert-title"><strong>{{ alert.alert_type }}</strong><br>{{ alert.title }}</h2>
                                 <p><strong>Location:</strong> {{ alert.location }}</p>
                                 <!--<p><strong>Start Date:</strong> {{ alert.start_date }}</p>
                                 <p><strong>End Date:</strong> {{ alert.end_date }}</p>-->

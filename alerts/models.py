@@ -43,3 +43,18 @@ class Alert(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Contact(models.Model):
+    contact_id = models.AutoField(primary_key=True, db_column='ContactId')
+    office_name = models.CharField(max_length=255, db_column='OfficeName')
+    email = models.EmailField(db_column='Email')
+    phone = models.CharField(max_length=50, db_column='Phone')
+    address = models.TextField(db_column='Address')
+    office_hours = models.TextField(db_column='OfficeHours')
+    create_date = models.DateTimeField(db_column='CreateDate')
+    created_by = models.CharField(max_length=100, db_column='CreatedBy')
+    last_update = models.DateTimeField(null=True, blank=True, db_column='LastUpdate')
+    updated_by = models.CharField(max_length=100, null=True, blank=True, db_column='UpdatedBy')
+
+    def __str__(self):
+        return self.office_name

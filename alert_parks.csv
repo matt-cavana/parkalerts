@@ -1,0 +1,201 @@
+parkId,RPrkId,Name,Tenure,Region,District,Longitude,Latitude,Status,CreateDate,CreatedBy,ContactId
+2,1082.0,Alexander Morrison,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.5800018,-30.05089951,Active,,,16.0
+3,709.0,Avon Valley,National Park,Experience Perth,Perth Hills,116.2210007,-31.61030006,Active,,,20.0
+4,406.0,Badgingarra,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.4609985,-30.39889908,Active,,,16.0
+5,1043.0,Banyowla,Regional Park,Experience Perth,Perth Hills,116.0250015,-32.08539963,Active,,,27.0
+6,1131.0,Barrow Island,Marine Park,Australia's North West,Pilbara,115.322998,-20.75880051,Active,,,18.0
+7,901.0,Beeliar,Regional Park,Experience Perth,Perth Coast & Plain,115.8399963,-32.21730042,Active,,,27.0
+8,1045.0,Beelu,National Park,Experience Perth,Perth Hills,116.1429977,-31.94140053,Active,,,11.0
+9,10003.0,Bibbulmun Track Blackwood,,South West,Blackwood,115.9840012,-33.78689957,Active,,,5.0
+10,10002.0,Bibbulmun Track Collie,,South West,Wellington,116.1500015,-33.35910034,Active,,,13.0
+11,10000.0,Bibbulmun Track Darling Range,,Swan,Perth Hills,116.060997,-31.97310066,Active,,,20.0
+12,10008.0,Bibbulmun Track Denmark Albany,,South Coast,Albany,117.3659973,-34.9693985,Active,,,3.0
+13,10004.0,Bibbulmun Track Donnelly River,,Australia's South West,Southern Forests - Pemberton,115.9779968,-34.10250092,Active,,,23.0
+14,10001.0,Bibbulmun Track Dwellingup,,Swan,Perth Hills,116.0630035,-32.71179962,Active,,,20.0
+15,10006.0,Bibbulmun Track Northcliffe,,Australia's South West,Southern Forests - Pemberton,116.1240005,-34.6332016,Active,,,23.0
+16,10005.0,Bibbulmun Track Pemberton,,Australia's South West,Southern Forests - Pemberton,116.0329971,-34.44609833,Active,,,23.0
+17,10007.0,Bibbulmun Track Walpole,,Australia's South West,Southern Forests - Walpole Wilderness,116.7279968,-34.9754982,Active,,,26.0
+18,541.0,Big Brook,State Forest,Australia's South West,Southern Forests - Pemberton,116.0070038,-34.39139938,Active,,,23.0
+19,35.0,Blackwood River,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.3570023,-34.07109833,Active,,,5.0
+20,181.0,Boorabbin,National Park,Australia's Golden Outback,Kalgoorlie & Goldfields,120.1650009,-31.23329926,Active,,,17.0
+21,531.0,Boorara - Gardner,National Park,Australia's South West,Southern Forests - Pemberton,116.2600021,-34.69010162,Active,,,23.0
+22,166.0,Boyagin,Nature Reserve,Australia's Golden Outback,Wheatbelt,116.8879852,-32.47159958,Active,,,22.0
+23,37.0,Wooditjup,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.1149979,-33.95949936,Active,,,5.0
+24,187.0,Burra,Conservation Park,Australia's Golden Outback,Kalgoorlie & Goldfields,121.1969986,-31.3885994,Active,,,17.0
+25,866.0,Canning River,Regional Park,Experience Perth,Perth Coast & Plain,115.9280014,-32.02170181,Active,,,27.0
+26,334.0,Cape Arid,National Park,Australia's Golden Outback,Esperance & South East Coast,123.3690033,-33.51900101,Active,,,14.0
+27,333.0,Cape Le Grand,National Park,Australia's Golden Outback,Esperance & South East Coast,122.2210007,-33.95190048,Active,,,14.0
+28,410.0,Cape Range,National Park,Australia's Coral Coast,Ningaloo Coast World Heritage Area,113.8679962,-22.15870094,Active,,,8.0
+29,885.0,Carnac Island,Nature Reserve,Experience Perth,Perth Coast & Plain,115.663002,-32.12179947,Active,,,25.0
+30,703.0,Coalseam,Conservation Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.5540009,-28.96279907,Active,,,15.0
+31,429.0,Collier Range,National Park,Australia's North West,Pilbara,119.0719986,-24.65189934,Active,,,18.0
+32,1060.0,Credo,former pastoral lease,Australia's Golden Outback,Kalgoorlie & Goldfields,120.7779999,-30.36520004,Active,,,17.0
+33,561.0,D'Entrecasteaux,National Park,Australia's South West,Southern Forests - Pemberton,116.0270004,-34.77899933,Active,,,23.0
+34,109.0,Dalgarup,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.9840012,-33.98469925,Active,,,5.0
+35,423.0,Dampier Archipelago,Island Reserves,Australia's North West,Pilbara,116.6200027,-20.55949974,Active,,,18.0
+36,503.0,Diamond,State Forest,Australia's South West,Southern Forests - Pemberton,116.1220016,-34.31919861,Active,,,23.0
+37,1052.0,Dirk Hartog Island,National Park,Australia's Coral Coast,Shark Bay World Heritage Area,113.052002,-25.82600021,Active,,,24.0
+38,1081.0,Drovers Cave,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.0920029,-30.23390007,Active,,,16.0
+39,128.0,Dryandra Woodland,Other,Australia's Golden Outback,Wheatbelt,116.9089966,-32.79750061,Active,,,22.0
+40,631.0,Drysdale River,National Park,Australia's North West,Kimberley,126.7210007,-15.0468998,Active,,,19.0
+41,385.0,Dumbleyung Lake,Nature Reserve,Australia's Golden Outback,Wheatbelt,117.6149979,-33.34199905,Active,,,22.0
+42,1130.0,Eighty Mile Beach,Marine Park,Australia's North West,Kimberley,120.8830032,-19.64259911,Active,,,4.0
+43,286.0,Eucla,National Park,Australia's Golden Outback,Esperance & South East Coast,128.9669952,-31.67900085,Active,,,14.0
+44,232.0,Fitzgerald River,National Park,Australia's Golden Outback,Esperance & South East Coast,119.6289978,-33.99259949,Active,,,3.0
+45,1127.0,Forest Grove,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.1330032,-34.09899902,Active,,,5.0
+46,864.0,Francois Peron,National Park,Australia's Coral Coast,Shark Bay World Heritage Area,113.5070038,-25.69829941,Active,,,24.0
+47,300.0,Frank Hann,National Park,Australia's Golden Outback,Esperance & South East Coast,120.3160019,-32.87720108,Active,,,14.0
+48,994.0,Danggu,National Park,Australia's North West,Kimberley,125.7060013,-18.07579994,Active,,,35.0
+49,535.0,Gloucester,National Park,Australia's South West,Donnelly,116.0619965,-34.44919968,Active,,,23.0
+50,888.0,Gnangara,State Forest,Experience Perth,Perth Coast & Plain,115.8990021,-31.76079941,Active,,,25.0
+51,36.0,Golden Valley Tree Park,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.9950027,-33.80139923,Active,,,5.0
+52,195.0,Goldfields Woodlands,National Park,Australia's Golden Outback,Kalgoorlie & Goldfields,120.4580002,-31.14220047,Active,,,17.0
+53,196.0,Goongarrie,National Park,Australia's Golden Outback,Kalgoorlie & Goldfields,121.5029984,-29.98180008,Active,,,17.0
+54,717.0,Gooseberry Hill,National Park,Experience Perth,Perth Hills,116.0469971,-31.94109917,Active,,,20.0
+55,1114.0,Greater Beedelup,National Park,Australia's South West,Southern Forests - Pemberton,115.8639984,-34.37340164,Active,,,23.0
+56,1150.0,Greater Hawke,National Park,Australia's South West,Southern Forests - Pemberton,115.9509964,-34.56480026,Active,,,23.0
+57,716.0,Greenmount,National Park,Experience Perth,Perth Hills,116.0630035,-31.91069984,Active,,,20.0
+58,259.0,Gull Rock,National Park,Australia's South West,Albany & Great Southern,118.0360031,-35.0033989,Active,,,3.0
+59,859.0,Hamelin Pool,Marine Nature Reserve,Australia's Coral Coast,Shark Bay World Heritage Area,114.1019974,-26.21409988,Active,,,24.0
+60,230.0,Hassell,National Park,Australia's South West,Albany & Great Southern,118.3290024,-34.67649841,Active,,,3.0
+61,855.0,Helena,National Park,Experience Perth,Perth Hills,116.302002,-32.10990143,Active,,,20.0
+62,902.0,Herdsman Lake,Regional Park,Experience Perth,Perth Coast & Plain,115.8069992,-31.92519951,Active,,,27.0
+63,1129.0,Hilliger,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.6959991,-34.23149872,Active,,,5.0
+64,914.0,Hoffman,State Forest,Australia's South West,Geographe,116.0889969,-33.00230026,Active,,,13.0
+65,903.0,Jandakot,Regional Park,Experience Perth,Perth Coast & Plain,115.9219971,-32.13990021,Active,,,27.0
+66,538.0,Jane,National Park,Australia's South West,Southern Forests - Pemberton,116.2570038,-34.62630081,Active,,,23.0
+67,710.0,John Forrest,National Park,Experience Perth,Perth Hills,116.0820007,-31.88229942,Active,,,20.0
+68,386.0,Jurien Bay,Marine Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.0370026,-30.28969955,Active,,,16.0
+69,720.0,Kalamunda,National Park,Experience Perth,Perth Hills,116.0780029,-31.95940018,Active,,,20.0
+70,699.0,Kalbarri,National Park,Australia's Coral Coast,Kalbarri,114.4759979,-27.64730072,Active,,,15.0
+71,191.0,Kalgoorlie Arboretum,Other,Australia's Golden Outback,Kalgoorlie & Goldfields,121.4489975,-30.74410057,Active,,,17.0
+72,420.0,Karijini,National Park,Australia's North West,Pilbara,118.3389969,-22.5442009,Active,,,6.0
+73,414.0,Karlamilyi,National Park,Australia's North West,Pilbara,122.7369995,-22.33250046,Active,,,18.0
+74,701.0,Kennedy Range,National Park,Australia's Golden Outback,Gascoyne,115.0540009,-24.57789993,Active,,,24.0
+75,988.0,Wunaamin Conservation Park ,Conservation Park,Australia's North West,Kimberley,125.0289993,-16.88500023,Active,,,4.0
+76,133.0,Kokerbin,Nature Reserve,Australia's Golden Outback,Wheatbelt,117.7060013,-31.88809967,Active,,,21.0
+77,451.0,Korrelocking,Nature Reserve,Australia's Golden Outback,Wheatbelt,117.4560013,-31.17650032,Active,,,21.0
+78,1046.0,Korung,National Park,Experience Perth,Perth Hills,116.052002,-32.02220154,Active,,,20.0
+79,193.0,Lake Mason,Conservation Park,Australia's Golden Outback,Kalgoorlie & Goldfields,119.5210037,-27.58740044,Active,,,17.0
+80,573.0,Lake Muir,National Park,Australia's South West,Southern Forests - Pemberton,116.6790009,-34.49349976,Active,,,23.0
+81,1103.0,Lalang-gaddam/Horizontal Falls Marine Park ,Marine Park,Australia's North West,Kimberley,124.1679993,-15.7123003,Active,,,4.0
+82,721.0,Lane Poole Reserve,Other,Experience Perth,Perth Hills,116.1419983,-32.87179947,Active,,,30.0
+83,120.0,Leeuwin-Naturaliste,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.0439987,-34.1352005,Active,,,5.0
+84,868.0,Len Howard,Conservation Park,Experience Perth,Perth Coast & Plain,115.6940002,-32.5658989,Active,,,25.0
+85,949.0,Leschenault Peninsula,Conservation Park,Australia's South West,Geographe,115.689003,-33.21839905,Active,,,13.0
+86,395.0,Lesueur,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.0459976,-30.08939934,Active,,,16.0
+87,198.0,Lorna Glen,Other,Australia's Golden Outback,Kalgoorlie & Goldfields,121.4560013,-26.13369942,Active,,,17.0
+88,871.0,Marmion,Marine Park,Experience Perth,Perth Coast & Plain,115.7330017,-31.82719994,Active,,,25.0
+89,867.0,Matilda Bay Reserve,Other,Experience Perth,Perth Coast & Plain,115.8209991,-31.98069954,Active,,,27.0
+90,1047.0,Midgegooroo,National Park,Experience Perth,Perth Hills,116.1500015,-32.1291008,Active,,,20.0
+91,419.0,Millstream Chichester,National Park,Australia's North West,Pilbara,117.1480026,-21.29100037,Active,,,29.0
+92,619.0,Mirima,National Park,Australia's North West,Kimberley,128.7720032,-15.77449989,Active,,,19.0
+93,630.0,Mitchell River,National Park,Australia's North West,Kimberley,125.7050018,-14.83049965,Active,,,19.0
+94,858.0,Monkey Mia,Reserve,Australia's Coral Coast,Shark Bay World Heritage Area,113.7099991,-25.80050087,Active,,,7.0
+95,416.0,Montebello Islands,Marine Park,Australia's North West,Pilbara,115.473999,-20.4253006,Active,,,18.0
+96,702.0,Mount Augustus,National Park,Australia's Golden Outback,Gascoyne,116.8499985,-24.33480072,Active,,,24.0
+97,657.0,Mount Frankland,National Park,Australia's South West,Southern Forests - Walpole Wilderness,116.5619965,-34.70069885,Active,,,26.0
+98,1015.0,Mount Frankland South,National Park,Australia's South West,Southern Forests - Walpole Wilderness,116.6119995,-34.85359955,Active,,,26.0
+99,1016.0,Mount Lindesay,National Park,Australia's South West,Southern Forests - Walpole Wilderness,117.1949997,-34.82020187,Active,,,26.0
+100,1133.0,Mt Frankland North,National Park,Australia's South West,Southern Forests - Walpole Wilderness,116.685997,-34.66450119,Active,,,26.0
+101,1112.0,Mt Roe,National Park,Australia's South West,Albany & Great Southern,117.0080032,-34.70740128,Active,,,26.0
+102,1003.0,Muiron Islands,Marine Management Area,Australia's Coral Coast,Ningaloo Coast World Heritage Area,114.3980026,-21.66060066,Active,,,34.0
+103,12003.0,Munda Biddi Trail Collie,Other,Australia's South West,Wellington,116.1569977,-33.35770035,Active,,,13.0
+104,12009.0,Munda Biddi Trail Denmark,Other,Australia's South West,Frankland,117.3499985,-34.96269989,Active,,,26.0
+105,12001.0,Munda Biddi Trail Jarrahdale to Nanga,Other,Experience Perth,Perth Hills,116.1650009,-31.9041996,Active,,,20.0
+106,12004.0,Munda Biddi Trail Jarrahwood,Other,Australia's South West,Blackwood,115.6660004,-33.79560089,Active,,,5.0
+107,12005.0,Munda Biddi Trail Manjimup,Other,Australia's South West,Donnelly,116.1470032,-34.24160004,Active,,,23.0
+108,12000.0,Munda Biddi Trail Mundaring to Jarrahdale,Other,Experience Perth,Perth Hills,116.1650009,-31.9041996,Active,,,20.0
+109,12002.0,Munda Biddi Trail Nanga,Other,Experience Perth,Perth Hills,116.0930023,-32.80550003,Active,,,20.0
+110,12006.0,Munda Biddi Trail Northcliffe,Other,Australia's South West,Donnelly,116.1240005,-34.6330986,Active,,,23.0
+111,12007.0,Munda Biddi Trail Walpole,Other,Australia's South West,Frankland,116.7300034,-34.97589874,Active,,,26.0
+112,1042.0,Mundy,Regional Park,Experience Perth,Perth Hills,116.0339966,-31.99609947,Active,,,27.0
+113,1121.0,Murujuga,National Park,Australia's North West,Pilbara,116.8330002,-20.55830002,Active,,,18.0
+114,387.0,Nambung,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.1559982,-30.59020042,Active,,,9.0
+115,884.0,Neerabup,National Park,Experience Perth,Perth Coast & Plain,115.7460022,-31.68670082,Active,,,25.0
+116,1102.0,Ngari Capes,Marine Park,Australia's South West,South West Capes & Blackwood River Valley,114.947998,-33.97320175,Active,,,5.0
+117,408.0,Ningaloo,Marine Park,Australia's Coral Coast,Ningaloo Coast World Heritage Area,113.7399979,-22.86179924,Active,,,34.0
+118,1066.0,Northern Yilgarn Conservation Reserves,Nature Reserve,Australia's Golden Outback,Kalgoorlie & Goldfields,120.0940018,-30.48600006,Active,,,17.0
+119,336.0,Nuytsland,Nature Reserve,Australia's Golden Outback,Esperance & South East Coast,124.7440033,-32.83919907,Active,,,14.0
+120,489.0,One Tree Bridge,Other,Australia's South West,Southern Forests - Pemberton,115.9420013,-34.21519852,Active,,,23.0
+121,384.0,Pallarup,Nature Reserve,Australia's Golden Outback,Wheatbelt,119.7509995,-33.23009872,Active,,,22.0
+122,627.0,Parry Lagoons,Nature Reserve,Australia's North West,Kimberley,128.2870026,-15.67059994,Active,,,19.0
+123,335.0,Peak Charles,National Park,Australia's Golden Outback,Esperance & South East Coast,121.1080017,-32.90859985,Active,,,14.0
+124,883.0,Penguin Island,Conservation Park,Experience Perth,Perth Coast & Plain,115.6920013,-32.30530167,Active,,,25.0
+125,233.0,Porongurup,National Park,Australia's South West,Albany & Great Southern,117.8909988,-34.68429947,Active,,,3.0
+126,77.0,Powlalup,Nature Reserve,Australia's South West,South West Capes & Blackwood River Valley,115.913002,-33.85820007,Active,,,5.0
+127,76.0,Preston,National Park,Australia's South West,Blackwood,116.1220016,-33.58729935,Active,,,5.0
+128,1120.0,Prince Regent,National Park,Australia's North West,Kimberley,125.4039993,-15.47929955,Active,,,19.0
+129,621.0,Purnululu,National Park,Australia's North West,Kimberley,128.5339966,-17.46190071,Active,,,10.0
+130,73.0,Rapids,Conservation Park,Australia's South West,South West Capes & Blackwood River Valley,115.2949982,-33.89839935,Active,,,5.0
+131,881.0,Rockingham Lakes,Regional Park,Experience Perth,Perth Coast & Plain,115.7649994,-32.37350082,Active,,,27.0
+132,197.0,Rowles Lagoon,Conservation Park,Australia's Golden Outback,Kalgoorlie & Goldfields,120.8560028,-30.43390083,Active,,,17.0
+133,996.0,Rowley Shoals,Marine Park,Australia's North West,Kimberley,118.9329987,-17.57819939,Active,,,4.0
+134,465.0,Sandford Rocks,Nature Reserve,Australia's Golden Outback,Wheatbelt,118.75,-31.23069954,Active,,,21.0
+135,85.0,Scott,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.2259979,-34.25630188,Active,,,5.0
+136,713.0,Serpentine,National Park,Experience Perth,Perth Hills,116.0090027,-32.36819839,Active,,,33.0
+137,534.0,Shannon,National Park,Australia's South West,Southern Forests - Pemberton,116.3740005,-34.71080017,Active,,,23.0
+138,1087.0,Shark Bay,Marine Park,Australia's Coral Coast,Shark Bay World Heritage Area,113.5230026,-25.93530083,Active,,,24.0
+139,856.0,Shell Beach,Conservation Park,Australia's Coral Coast,Shark Bay World Heritage Area,113.7539978,-26.20179939,Active,,,24.0
+140,878.0,Shoalwater Islands,Marine Park,Experience Perth,Perth Coast & Plain,115.711998,-32.31259918,Active,,,25.0
+141,123.0,St John Brook,Conservation Park,Australia's South West,South West Capes & Blackwood River Valley,115.6869965,-33.94309998,Active,,,5.0
+142,231.0,Stirling Range,National Park,Australia's South West,Albany & Great Southern,117.8990021,-34.39160156,Active,,,3.0
+143,403.0,Stockyard Gully,Other,Australia's Coral Coast,Cervantes & Jurien Bay,115.098999,-29.93059921,Active,,,16.0
+144,310.0,Stokes,National Park,Australia's Golden Outback,Esperance & South East Coast,121.086998,-33.83169937,Active,,,14.0
+145,1155.0,Swan Canning Riverpark,Other,Experience Perth,Perth Coast & Plain,115.8399963,-31.99040031,Active,,,27.0
+146,892.0,Swan Estuary,Marine Park,Experience Perth,Perth Coast & Plain,115.8270035,-31.98889923,Active,,,25.0
+147,1083.0,Tathra,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.5279999,-29.7758007,Active,,,16.0
+148,1153.0,The Goat Farm,5(g) Reserve,Experience Perth,Perth Hills,116.0550003,-31.90270042,Active,,,20.0
+149,170.0,Toolibin,Nature Reserve,Australia's Golden Outback,Wheatbelt,117.6090012,-32.91740036,Active,,,22.0
+150,234.0,Torndirrup,National Park,Australia's South West,Albany & Great Southern,117.9550018,-35.10779953,Active,,,3.0
+151,473.0,Totadgin,Nature Reserve,Australia's Golden Outback,Wheatbelt,118.2149963,-31.57290077,Active,,,21.0
+152,121.0,Tuart Forest,National Park,Australia's South West,Geographe,115.4469986,-33.62139893,Active,,,5.0
+153,998.0,Tunnel Creek,National Park,Australia's North West,Kimberley,125.1439972,-17.61070061,Active,,,4.0
+154,267.0,Two Peoples Bay,Nature Reserve,Australia's South West,Albany & Great Southern,118.1549988,-34.965400700000004,Active,,,3.0
+155,1061.0,Walpole and Nornalup Inlets,Marine Park,Australia's South West,Southern Forests - Walpole Wilderness,116.7279968,-35.00429916,Active,,,26.0
+156,692.0,Walpole Nornalup,National Park,Australia's South West,Southern Forests - Walpole Wilderness,116.7979965,-34.96519852,Active,,,26.0
+157,708.0,Walyunga,National Park,Experience Perth,Perth Hills,116.0650024,-31.72050095,Active,,,20.0
+158,728.0,Wandoo,National Park,Experience Perth,Perth Hills,116.5589981,-31.92289925,Active,,,20.0
+159,533.0,Warren,National Park,Australia's South West,Southern Forests - Pemberton,115.9349976,-34.50389862,Active,,,23.0
+160,389.0,Watheroo,National Park,Australia's Coral Coast,Cervantes & Jurien Bay,115.8389969,-30.21240044,Active,,,16.0
+161,210.0,Waychinicup,National Park,Australia's South West,Albany & Great Southern,118.3799973,-34.89429855,Active,,,3.0
+162,960.0,Wellington,National Park,Australia's South West,Geographe,115.9550018,-33.36370087,Active,,,13.0
+163,229.0,West Cape Howe,National Park,Australia's South West,Albany & Great Southern,117.6119995,-35.10559845,Active,,,3.0
+164,1126.0,Whicher,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.4820023,-33.78409958,Active,,,5.0
+165,645.0,William Bay,National Park,Australia's South West,Albany & Great Southern,117.2519989,-35.01530075,Active,,,26.0
+166,1128.0,Wiltshire-Butler,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.4749985,-34.01350021,Active,,,5.0
+167,997.0,Bandilngan (Windjana Gorge),National Park,Australia's North West,Kimberley,124.9860001,-17.42149925,Active,,,4.0
+168,618.0,Wolfe Creek Crater,National Park,Australia's North West,Kimberley,127.7959976,-19.17230034,Active,,,19.0
+169,464.0,Wongan Hills,Nature Reserve,Australia's Golden Outback,Wheatbelt,116.6320038,-30.81019974,Active,,,21.0
+170,890.0,Woodman Point,Regional Park,Experience Perth,Perth Coast & Plain,115.762001,-32.1257019,Active,,,27.0
+171,346.0,Woody Island,Nature Reserve,Australia's Golden Outback,Esperance & South East Coast,122.0159988,-33.96250153,Active,,,2.0
+172,1041.0,Wooroloo,Regional Park,Experience Perth,Perth Hills,116.1309967,-31.88319969,Active,,,27.0
+173,1044.0,Wungong,Regional Park,Experience Perth,Perth Hills,116.0660019,-32.14960098,Active,,,27.0
+174,893.0,Yalgorup,National Park,Experience Perth,Perth Coast & Plain,115.6740036,-32.8158989,Active,,,31.0
+175,882.0,Yanchep,National Park,Experience Perth,Perth Coast & Plain,115.6829987,-31.5442009,Active,,,2.0
+176,1080.0,Yawuru,Conservation Estate,Australia's North West,Kimberley,122.3450012,-17.97520065,Active,,,4.0
+177,870.0,Yellagonga,Regional Park,Experience Perth,Perth Coast & Plain,115.7969971,-31.77930069,Active,,,27.0
+178,1118.0,Yelverton,National Park,Australia's South West,South West Capes & Blackwood River Valley,115.0899963,-33.73419952,Active,,,5.0
+179,448.0,Yorkrakine Rock,Nature Reserve,Australia's Golden Outback,Wheatbelt,117.5139999,-31.4211998,Active,,,21.0
+181,1158.0,Ngamoowalem,Conservation Park,Kimberley,East Kimberley,128.476667,-15.798333,Active,,,19.0
+182,1241.0,Houtman Abrolhos Islands,National Park,WESTERN AUSTRALIA,Coral Coast,113.732,-28.4408,Active,,,15.0
+183,753.0,Marrinup,State Forrest,Experience Perth,Perth Hills,115.99,-32.664,Active,,,20.0
+185,513.0,Easter ,National Park,South Coast,Donnelly,115.776,-34.1477,Active,,,23.0
+186,497.0,Brockman National Park,National Park,South Coast,Donnelly,115.995,-34.5146,Active,,,23.0
+187,1051.0,Edel Land (proposed) National Park,proposed National Park ,Coral Coast,Denham,113.323,-26.3361,Active,,,24.0
+188,535.0,Gloucester ,National Park,South West,Donnelly,116.062,-34.4492,Active,,,23.0
+189,679.0,Karara Rangeland Park ,Park,Midwest,Geraldton ,117.132,-28.8927,Active,,,15.0
+190,959.0,Logue Brook,State Forest,South West,Collie,115.96,-33.0042,Active,,,13.0
+191,20000.0,Nyinggulu (Ningaloo) Coastal Reserves,Reserve,Pilbara,Exmouth,113.816,-23.0727,Active,,,34.0
+192,1321.0,Miluwindi Conservation Park ,Conservation Park,Australia's North West,Kimberley,125.209,-17.1721,Active,,,4.0
+193,12008.0,Munda Biddi Trail Albany,Other,Australia's South Coast,Albany,117.864043,-35.0211518,Active,,,3.0
+194,1029.0,Wanagarren Nature Reserve ,Nature Reserve,Australia's Coral Coast ,Jurien Bay ,115.145,-30.6861,Active,,,16.0
+195,1301.0,Karda Reserve,Reserve,Australia's Coral Coast ,Jurien Bay ,115.256,-30.2026,Active,,,16.0
+196,888.0,Pinjar,Swan Region,Swan Region,Swan Region,115.7926369,-31.6446135,Active,,,25.0
+197,1064.0,Wallaroo Rock,Conservation Park,Goldfields,Kalgoorlie,120.4933,-30.80809,Active,,,17.0
+198,188.0,Cave Hill,Nature Reserve,Goldfields,Kalgoorlie,121.22153,-31.65835,Active,,,17.0
+199,1111.0,Nyinggulara,National Park,Pilbara,Exmouth,113.709,-22.7154,Active,,,34.0
+200,1481.0,Mungada Ridge,National Park,Midwest,Murchison,116.927319,-29.11663614,Active,,,15.0
+201,421.0,Purungunya (Ex-Meentheena Station),Conservation Estate,Pilbara,Karratha,120.4668682,-21.29275836,Active,,,18.0
+202,1561.0,Nanga-Malgana,National Park,Midwest,Gascoyne,113.6989589,-26.20176469,Active,,,24.0
+20138,,,,,,,,,,,

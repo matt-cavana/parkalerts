@@ -1,0 +1,677 @@
+ id  |                                     name                                     | contactid |          officename          
+-----+------------------------------------------------------------------------------+-----------+------------------------------
+   2 | 4 Mile Campground                                                            |         3 | Albany
+   3 | Alexander Morrison                                                           |           | 
+   4 | Alyi-wa Miya                                                                 |        20 | Mundaring
+   6 | Andrew Forest Block                                                          |           | 
+   7 | Andrew State Forest                                                          |           | 
+  12 | Arklow State Forest                                                          |        13 | Collie
+  13 | Arklow State Forrest                                                         |        13 | Collie
+  10 | Arklow Forest                                                                |           | 
+  23 | Beedelup Campsite                                                            |        23 | Pemberton
+  14 | Avon Valley                                                                  |           | 
+  15 | Badgingarra                                                                  |           | 
+  27 | Benwenerup (formerly Stokes) National Park                                   |        14 | Esperance
+  29 | Bibbulmum Track - Mount Hallowell near Denmark                               |        26 | Walpole
+  34 | Bibbulmun Track - Helena National Park                                       |        20 | Mundaring
+  19 | Bandilngan (Windjana Gorge)                                                  |           | 
+  20 | Banyowla                                                                     |           | 
+  21 | Barkers Inlet Nature Reserve                                                 |           | 
+  42 | Bibbulmun Track Dale                                                         |        11 | Perth Hills Discovery Centre
+  46 | Bibbulmun Track Dog Pool Campsite                                            |        23 | Pemberton
+  25 | Beeliar                                                                      |           | 
+  26 | Beelu                                                                        |           | 
+  50 | Bibbulmun Track Gleneagle                                                    |        20 | Mundaring
+  53 | Bibbulmun Track Kalamunda                                                    |        20 | Mundaring
+  33 | Bibbulmun Track - Glen Mervyn Dam                                            |           | 
+  36 | Bibbulmun Track - Wilson Inlet                                               |           | 
+  37 | Bibbulmun Track Balingup                                                     |           | 
+  39 | Bibbulmun Track Blackwood Campsite                                           |           | 
+  40 | Bibbulmun Track Blackwood Shelter                                            |           | 
+  41 | Bibbulmun Track Collie                                                       |           | 
+  43 | Bibbulmun Track Darling Range                                                |           | 
+  44 | Bibbulmun Track Denmark                                                      |           | 
+  45 | Bibbulmun Track Denmark Albany                                               |           | 
+  47 | Bibbulmun Track Donnelly River                                               |           | 
+  48 | Bibbulmun Track Donnelly River Village                                       |           | 
+  49 | Bibbulmun Track Dwellingup                                                   |           | 
+  55 | Bibbulmun Track Mundaring                                                    |           | 
+  57 | Bibbulmun Track Northcliffe                                                  |           | 
+  58 | Bibbulmun Track Pemberton                                                    |           | 
+  61 | Bibbulmun Track Rame Head Campsite                                           |           | 
+  62 | Bibbulmun Track Walpole                                                      |           | 
+  65 | Big Brook                                                                    |           | 
+  54 | Bibbulmun Track Lake Maringup                                                |        23 | Pemberton
+  67 | Blackwood River                                                              |           | 
+  56 | Bibbulmun Track Nerang                                                       |        11 | Perth Hills Discovery Centre
+  59 | Bibbulmun Track Pingerup Raod                                                |        26 | Walpole
+  63 | Bibbulmun Track Warren Campsite                                              |        23 | Pemberton
+  77 | Boorara - Gardner                                                            |           | 
+  64 | Bibbulmun Track Woolbales Campsite                                           |        26 | Walpole
+  69 | Bluff Knoll and The Stirling Range Ridge Walk                                |         3 | Albany
+  72 | Boodie Island                                                                |        18 | Karratha
+  81 | Bramley                                                                      |           | 
+  83 | Bridge works adjacent to the Trail - Map 9b                                  |           | 
+  73 | Boom Boom Trail                                                              |        30 | Dwellingup
+  86 | Bundegi Boat Ramp                                                            |           | 
+  87 | Bundegi Coastal Park, Jurabi Coastal Park and Ningaloo Marine Park           |           | 
+  74 | Boondi Rock                                                                  |        17 | Kalgoorlie
+  89 | Burra                                                                        |           | 
+  75 | Booner Mundak Hut                                                            |        26 | Walpole
+  76 | Boorabbin                                                                    |        17 | Kalgoorlie
+  82 | Brides Cave                                                                  |         5 | Busselton
+  97 | Canning River                                                                |           | 
+  98 | Cape Arid                                                                    |           | 
+  99 | Cape Le Grand                                                                |           | 
+ 101 | Cape Range                                                                   |           | 
+ 102 | Cape to Cape - Margaret Rivermouth                                           |           | 
+  84 | Brockway Timber Reserve                                                      |        14 | Esperance
+  90 | Burra Rock                                                                   |        17 | Kalgoorlie
+ 106 | Cardac and Mooralup Forest Blocks                                            |           | 
+  95 | Camp Quaranup                                                                |         3 | Albany
+ 108 | Carinyah Campsite / NE of Canning Reservoir                                  |           | 
+ 109 | Carnac Island                                                                |           | 
+ 112 | Cave Hill Conservation Park                                                  |           | 
+ 115 | Chariup Forest Block                                                         |           | 
+ 118 | Coalseam                                                                     |           | 
+ 119 | Cobiac forest block, Jarrahdale State Forest                                 |           | 
+ 121 | Collie State Forest                                                          |           | 
+ 123 | Collins and Nairn State Forests                                              |           | 
+ 124 | Construction diversion - Ordnance Bridge - map 7b                            |           | 
+ 134 | Crowea Forest Block                                                          |           | 
+ 120 | Collie                                                                       |           | 
+ 135 | D'Entrecasteaux                                                              |           | 
+ 138 | Dales Campground, Karijini National Park                                     |           | 
+ 141 | DBCA - Walpole Office                                                        |           | 
+  93 | Cambray State Forest                                                         |         5 | Busselton
+  94 | Camp Creek Conservation Reserve                                              |        19 | Kununurra
+ 145 | Denmark Catchment State Forest                                               |           | 
+ 146 | Department of Biodiversity, Conservation and Attractions                     |           | 
+ 147 | Diamond                                                                      |           | 
+ 148 | Dick Perry Reserve                                                           |           | 
+ 149 | Dimalurru (Tunnel Creek)                                                     |           | 
+ 150 | Dingup Forest Block                                                          |           | 
+ 151 | Dirk Hartog Island                                                           |           | 
+ 100 | Cape Leeuwin Lighthouse                                                      |         5 | Busselton
+ 104 | Captain Fawcett 4WD Track                                                    |        30 | Dwellingup
+ 110 | Castle Rock                                                                  |         3 | Albany
+ 155 | Dookanelly Campsite / S of Dwellingup                                        |           | 
+ 156 | Drovers Cave                                                                 |           | 
+ 157 | Dryandra Woodland                                                            |           | 
+ 158 | Drysdale River                                                               |           | 
+ 162 | E of Jarrahdale/Monadnocks Campsite                                          |           | 
+ 163 | E of Stirling Dam                                                            |           | 
+ 164 | East Of Jarrahdale                                                           |           | 
+ 165 | East Wallabi Island - Houtman Abrolhols Islands National Park                |           | 
+ 166 | Eclipse Island Road                                                          |           | 
+ 167 | Edel Land (proposed) National Park                                           |           | 
+ 168 | Edel Land National Park                                                      |           | 
+ 111 | Cave Hill                                                                    |        17 | Kalgoorlie
+ 171 | Elephant Rocks - William Bay National Park                                   |           | 
+ 122 | Collier Range                                                                |        18 | Karratha
+ 175 | Fisherman's Track                                                            |           | 
+ 126 | Conto Spring                                                                 |         5 | Busselton
+ 129 | Coulomb Point Nature Reserve                                                 |         4 | Broome
+ 180 | Francois Peron                                                               |           | 
+ 181 | Frank Hann                                                                   |           | 
+ 130 | Credo                                                                        |        17 | Kalgoorlie
+ 184 | Galway Green                                                                 |           | 
+ 131 | Credo Campground                                                             |        17 | Kalgoorlie
+ 187 | Geikie Gorge                                                                 |           | 
+ 189 | Ghost House Walk Trail                                                       |           | 
+ 195 | Gloucester                                                                   |           | 
+ 196 | Gloucester Tree                                                              |           | 
+ 197 | Gnangara                                                                     |           | 
+ 198 | Gnangara Off Road Vehicle Area                                               |           | 
+ 136 | D'Entrecasteaux National Park                                                |           | 
+ 132 | Creery Wetland Nature Reserve                                                |        25 | Wanneroo
+ 210 | Graphite and Lindsay Forest Blocks                                           |           | 
+ 211 | Graphite and Lindsay State Forest                                            |           | 
+ 212 | Greater Beedelup                                                             |           | 
+ 133 | Creery Wetlands Nature Reserve                                               |        31 | Mandurah
+ 214 | Greater Hawke                                                                |           | 
+ 137 | Dales Campground                                                             |         6 | Karijini Visitor Centre
+ 217 | Greenbushes Loop                                                             |           | 
+ 218 | Greenbushes Loop Trail                                                       |           | 
+ 219 | Greenmount                                                                   |           | 
+ 220 | Greens Pool                                                                  |           | 
+ 139 | Dalmanyi (Bell Gorge)                                                        |        19 | Kununurra
+ 222 | Grimwade                                                                     |           | 
+ 140 | Danggu Geikie Gorge                                                          |        35 | Geikie Gorge
+ 142 | DBCA Broome Office                                                           |         4 | Broome
+ 159 | Dulundi Silent Grove                                                         |        19 | Kununurra
+ 226 | Guillotines                                                                  |           | 
+ 160 | Dundas Nature Reserve                                                        |        14 | Esperance
+ 231 | Harewood Forest                                                              |           | 
+ 161 | Dwellingup                                                                   |        20 | Mundaring
+ 233 | Harewood State Forest                                                        |           | 
+ 170 | Eighty Mile Beach                                                            |         4 | Broome
+ 172 | False Entrance Campground                                                    |        24 | Denham
+ 174 | Ferndale and Lewana Plantation                                               |         5 | Busselton
+ 176 | Fitzgerald River                                                             |         3 | Albany
+ 239 | Helena                                                                       |           | 
+ 178 | Forest Grove                                                                 |         5 | Busselton
+ 208 | Gooseberry Hill                                                              |        20 | Mundaring
+ 244 | Herdsman Lake                                                                |           | 
+ 245 | Hester Avenue                                                                |           | 
+ 247 | Hidden Island - Buccaneer Archipelago                                        |           | 
+ 249 | Hoffman                                                                      |           | 
+ 250 | Houtman Abrolhos Islands                                                     |           | 
+ 251 | Houtman Abrolhos Islands National Park                                       |           | 
+ 252 | Hunters Beach                                                                |           | 
+ 253 | Injidup                                                                      |           | 
+ 255 | Jandakot                                                                     |           | 
+ 256 | Jane                                                                         |           | 
+ 257 | Jarrahdale State Forest                                                      |           | 
+ 262 | John Forrest                                                                 |           | 
+ 263 | John Rate Lookout Walpole Nornalup                                           |           | 
+ 265 | Julimar Conservation Park                                                    |           | 
+ 266 | Jurabi Coastal Park                                                          |           | 
+ 269 | Kalamunda Mountain Bike Circuit                                              |           | 
+ 271 | Kalbarri                                                                     |           | 
+ 273 | Kalgulup Regional Park                                                       |           | 
+ 274 | Karara Rangeland Park                                                        |           | 
+ 276 | Karijini                                                                     |           | 
+ 277 | Karijini Visitor Centre                                                      |           | 
+ 278 | Karlamilyi                                                                   |           | 
+ 182 | Frankland Campsite                                                           |        26 | Walpole
+ 280 | Kennedy Range                                                                |           | 
+ 190 | Giant Cave                                                                   |         5 | Busselton
+ 193 | Glen Mervyn Campsite                                                         |        13 | Collie
+ 194 | Glen Mervyn Dam                                                              |        13 | Collie
+ 284 | Kimberley Region                                                             |           | 
+ 285 | King Leopold Ranges                                                          |           | 
+ 286 | Kings Park                                                                   |           | 
+ 287 | Kingston National Park and Palgarup State Forest                             |           | 
+ 199 | Gnangara Off-Road Motorcycle Area                                            |        25 | Wanneroo
+ 289 | Korung                                                                       |           | 
+ 291 | Lake Brockman                                                                |           | 
+ 292 | Lake C Y O'Connor                                                            |           | 
+ 201 | Gnangara-Moore River State Forest                                            |        25 | Wanneroo
+ 202 | Goat Farm Mountain Bike Park                                                 |        20 | Mundaring
+ 296 | Lake Muir                                                                    |           | 
+ 297 | Lake Muir Nature Reserve                                                     |           | 
+ 299 | Lake Shaster Nature Reserve                                                  |           | 
+ 300 | Lake Thetis                                                                  |           | 
+ 204 | Golden Valley Tree Park                                                      |         5 | Busselton
+ 302 | Lalang-Gaddam Marine Park                                                    |           | 
+ 306 | Lane Poole Reserve                                                           |           | 
+ 307 | Langford Park                                                                |           | 
+ 310 | Leeuwin-Naturaliste                                                          |           | 
+ 311 | Len Howard                                                                   |           | 
+ 205 | Goldfields Woodlands                                                         |        17 | Kalgoorlie
+ 313 | Leschenault Peninsula                                                        |           | 
+ 206 | Goongarrie                                                                   |        17 | Kalgoorlie
+ 315 | Lesueur                                                                      |           | 
+ 316 | Lewin Forest Block                                                           |           | 
+ 320 | Lucky Bay (Kalbarri)                                                         |           | 
+ 327 | Mandalay Beach Road in D'Entrecasteaux National Park                         |           | 
+ 328 | Manea Park                                                                   |           | 
+ 329 | Mangrove Cove (also known as Koombana Park)                                  |           | 
+ 330 | Map 1b/2a - timber harvesting diversion - E of Jarrahdale                    |           | 
+ 331 | Map 2b - Extension to Cape Leeuwin Lighthouse                                |           | 
+ 332 | Map 3a - Nanga Road long-term diversion                                      |           | 
+ 333 | Map 3b - Timber harvesting around Yarri Camp Site                            |           | 
+ 334 | Map 4a - Trail realignment - Coalfields Road                                 |           | 
+ 335 | Map 4b - Realignment north of Blackwood Camp Site                            |           | 
+ 336 | Map 5a - Closure of vehicle access points north of Pemberton                 |           | 
+ 337 | Map 8b - Trail realignment - Limbourne Road                                  |           | 
+ 338 | Margaret Pine Plantation                                                     |           | 
+ 207 | Goongarrie Homestead                                                         |        17 | Kalgoorlie
+ 209 | Granite Skywalk, Castle Rock, Porongurup National Park                       |         3 | Albany
+ 341 | Marmion                                                                      |           | 
+ 216 | Green Island                                                                 |        23 | Pemberton
+ 227 | Gull Rock                                                                    |         3 | Albany
+ 229 | Hamelin Bay                                                                  |         5 | Busselton
+ 348 | Millstream Chichester                                                        |           | 
+ 349 | Millstream Dam                                                               |           | 
+ 350 | Miluwindi Conservation Park                                                  |           | 
+ 351 | Mirima                                                                       |           | 
+ 352 | Mitchell River                                                               |           | 
+ 230 | Hamelin Pool                                                                 |        24 | Denham
+ 237 | Harris River State Forest                                                    |        13 | Collie
+ 355 | Monkey Mia                                                                   |           | 
+ 243 | Helms Arboretum                                                              |        14 | Esperance
+ 357 | Mount Augustus                                                               |           | 
+ 246 | Hewett's Hill Campsite                                                       |        20 | Mundaring
+ 248 | Hilliger                                                                     |         5 | Busselton
+ 260 | Jimmy Newells Road                                                           |         3 | Albany
+ 361 | Mount Frankland                                                              |           | 
+ 362 | Mount Frankland North National Park                                          |           | 
+ 363 | Mount Frankland South                                                        |           | 
+ 261 | Jinung Beiganup Hut                                                          |        26 | Walpole
+ 365 | Mount Lindesay                                                               |           | 
+ 267 | Jurien Bay                                                                   |        16 | Jurien Bay
+ 270 | Kalamunda Mountain Bike Network                                              |        20 | Mundaring
+ 370 | Mount Roe National Park                                                      |           | 
+ 371 | Mount Wells                                                                  |           | 
+ 272 | Kalgoorlie Arboretum                                                         |        17 | Kalgoorlie
+ 275 | Karda Reserve                                                                |        16 | Jurien Bay
+ 290 | Kwokralup Beela Hut                                                          |        26 | Walpole
+ 294 | Lake Kepwari Campgrounds                                                     |        13 | Collie
+ 298 | Lake Navarino                                                                |        30 | Dwellingup
+ 303 | Lalang-gaddam/Horizontal Falls Marine Park                                   |         4 | Broome
+ 304 | Lancelin Island Nature Reserve                                               |        16 | Jurien Bay
+ 379 | Mt Frankland North                                                           |           | 
+ 380 | Mt Frankland south National Park                                             |           | 
+ 387 | Mt Roe                                                                       |           | 
+ 393 | Munda Biddi Trail - Dwellingup                                               |           | 
+ 394 | Munda Biddi Trail - Jarrahdale                                               |           | 
+ 396 | Munda Biddi Trail - S of Pemberton - map 6b                                  |           | 
+ 402 | Munda Biddi Trail Collie Jarrahwood                                          |           | 
+ 404 | Munda Biddi Trail Denmark Albany                                             |           | 
+ 346 | Mesa Campground                                                              |           | 
+ 305 | Lane Navarino                                                                |        30 | Dwellingup
+ 409 | Munda Biddi Trail Jarrahdale Nanga                                           |           | 
+ 412 | Munda Biddi Trail Jarrahwood Manjimup                                        |           | 
+ 413 | Munda Biddi Trail Jarrahwood to Manjimup                                     |           | 
+ 415 | Munda Biddi Trail Manjimup Northcliffe                                       |           | 
+ 416 | Munda Biddi Trail Mundaring Jarrahdale                                       |           | 
+ 419 | Munda Biddi Trail Nanga Collie                                               |           | 
+ 420 | Munda Biddi Trail Nanga to Collie                                            |           | 
+ 308 | Laterite Conservation Park                                                   |        19 | Kununurra
+ 423 | Munda Biddi Trail Northcliffe to Walpole                                     |           | 
+ 424 | Munda Biddi Trail Northcliffe Walpole                                        |           | 
+ 309 | Lawley River National Park                                                   |        19 | Kununurra
+ 427 | Munda Biddi Trail Walpole Denmark                                            |           | 
+ 317 | Logue Brook                                                                  |        13 | Collie
+ 318 | Logue Brook Dam Campsite                                                     |        13 | Collie
+ 430 | Mundaring State Forest                                                       |           | 
+ 431 | Mundaring Weir                                                               |           | 
+ 432 | Mundy                                                                        |           | 
+ 323 | Lyall's Mill Group Campsite                                                  |        13 | Collie
+ 344 | Matilda Bay Reserve                                                          |        27 | Regional Parks
+ 435 | Murray Valley                                                                |           | 
+ 347 | Midgegooroo                                                                  |        20 | Mundaring
+ 368 | Mount Manning Range Nature Reserve and Helena-Aurora Range Conservation Park |        17 | Kalgoorlie
+ 438 | Murujuga                                                                     |           | 
+ 369 | Mount Manning- and Helena-Aurora Range Nature Reserve and Conservation Parks |        17 | Kalgoorlie
+ 440 | N of Dandalup                                                                |           | 
+ 441 | N of Northcliffe                                                             |           | 
+ 442 | Nambung                                                                      |           | 
+ 443 | Nambung National Park                                                        |           | 
+ 381 | Mt Hassell                                                                   |         3 | Albany
+ 446 | NE of Lake C Y O'Connor                                                      |           | 
+ 447 | NE of Stirling Dam                                                           |           | 
+ 448 | Neerabup                                                                     |           | 
+ 382 | Mt Lennard Mountain Bike Trails                                              |        13 | Collie
+ 452 | New Murray River bridge crossing                                             |           | 
+ 455 | Ngamoowalem                                                                  |           | 
+ 458 | Nglang Boodja Camp Site vandalised - Wellington National Park - map 4a       |           | 
+ 459 | Ningaloo                                                                     |           | 
+ 462 | North Bannister                                                              |           | 
+ 464 | North Island - Houtman Abrolhos Islands National Park                        |           | 
+ 466 | North Lake C Y O'Connor                                                      |           | 
+ 467 | Northern Yilgarn Conservation Reserves                                       |           | 
+ 469 | Nut Road                                                                     |           | 
+ 293 | Lake Jasper                                                                  |           | 
+ 470 | Nuytsland                                                                    |           | 
+ 384 | Mt Lindesay National Park                                                    |        26 | Walpole
+ 472 | Nyinggulara                                                                  |           | 
+ 473 | Nyinggulara National Park                                                    |           | 
+ 474 | Nyinggulu (Ningaloo) Coastal Reserves                                        |           | 
+ 478 | Owingup Nature Reserve                                                       |           | 
+ 480 | Pailings Road                                                                |           | 
+ 390 | Munda Biddi Denham                                                           |        13 | Collie
+ 482 | Parks and Wildlife Service Exmouth office                                    |           | 
+ 392 | Munda Biddi Trail - Albany                                                   |         3 | Albany
+ 397 | Munda Biddi Trail - Serpentine National Park                                 |        20 | Mundaring
+ 485 | Parry Lagoons                                                                |           | 
+ 399 | Munda Biddi Trail Albany                                                     |         3 | Albany
+ 487 | Peak Charles                                                                 |           | 
+ 400 | Munda Biddi Trail Carinyah                                                   |        20 | Mundaring
+ 489 | Penguin Island                                                               |           | 
+ 490 | Permanent realignment - Dwellingup - map 2b                                  |           | 
+ 491 | Permanent realignment - Joeys Nose - map 1b                                  |           | 
+ 492 | Permanent realignment - Lane Poole Reserve - Map 3a                          |           | 
+ 493 | Permanent realignment - N of Dandalup - map 2a                               |           | 
+ 494 | Permanent realignment - Quinninup - map 6a                                   |           | 
+ 495 | Permanent realignment - SW of Denmark - map 8b                               |           | 
+ 403 | Munda Biddi Trail Denmark                                                    |        26 | Walpole
+ 499 | Pinjar                                                                       |           | 
+ 406 | Munda Biddi Trail Hadfield                                                   |        13 | Collie
+ 501 | Pinjar Off Road Vehicle Area                                                 |           | 
+ 502 | Pinjar Off-Road area                                                         |           | 
+ 503 | Pinjar ORV area                                                              |           | 
+ 504 | Point Road Campground                                                        |           | 
+ 407 | Munda Biddi Trail Hoffman                                                    |        13 | Collie
+ 509 | Powlalup                                                                     |           | 
+ 510 | Prescribed burn diversion - PHS_100 - Swamp Oak Campsite – Map 2a          |           | 
+ 511 | Prescribed burn diversion just south of Northcliffe - Map 6a                 |           | 
+ 514 | Prevelly - Cape to Cape                                                      |           | 
+ 515 | Prince Regent                                                                |           | 
+ 517 | Purnululu                                                                    |           | 
+ 521 | Rame Head Campsite / W of Peaceful Bay                                       |           | 
+ 522 | Randall Road - Map 1b                                                        |           | 
+ 523 | Rapids                                                                       |           | 
+ 525 | Rat Island - Houtman Abrolhols Islands National Park                         |           | 
+ 527 | River Road construction - Wellington National Park - map 4a                  |           | 
+ 528 | Rockingham Lakes                                                             |           | 
+ 529 | Rocky Gully Conservation Park                                                |           | 
+ 530 | Romeo Road                                                                   |           | 
+ 531 | Rowles Lagoon                                                                |           | 
+ 533 | S of Harvey-Quindanning Road                                                 |           | 
+ 534 | S of Lake Brockman                                                           |           | 
+ 475 | Ocean Beach Road                                                             |           | 
+ 536 | Sandpatch & Mutton Bird Campsites / SW of Albany                             |           | 
+ 410 | Munda Biddi Trail Jarrahdale to Nanga                                        |        20 | Mundaring
+ 538 | Sandpatch Campsite / SW of Albany                                            |           | 
+ 411 | Munda Biddi Trail Jarrahwood                                                 |         5 | Busselton
+ 541 | SE of Gregory Brook Campsite                                                 |           | 
+ 542 | SE of Yourdamung Campsite                                                    |           | 
+ 543 | Serpentine                                                                   |           | 
+ 414 | Munda Biddi Trail Manjimup                                                   |        23 | Pemberton
+ 546 | Shannon                                                                      |           | 
+ 547 | Shannon National Park                                                        |           | 
+ 550 | Shire of Denmark                                                             |           | 
+ 551 | Shoalwater Islands                                                           |           | 
+ 552 | Sika Trail                                                                   |           | 
+ 553 | Smiths Beach                                                                 |           | 
+ 417 | Munda Biddi Trail Mundaring to Jarrahdale                                    |        20 | Mundaring
+ 557 | Southern Beekeepers Nature Reserve                                           |           | 
+ 558 | St John Brook                                                                |           | 
+ 418 | Munda Biddi Trail Nanga                                                      |        20 | Mundaring
+ 560 | State forest west of Tone Perup Nature Reserve                               |           | 
+ 562 | Stirling Range                                                               |           | 
+ 422 | Munda Biddi Trail Northcliffe                                                |        23 | Pemberton
+ 564 | Stockton Lake                                                                |           | 
+ 565 | Stockton Lake campground                                                     |           | 
+ 566 | Stockyard Gully                                                              |           | 
+ 567 | Stockyard Gully Reserve                                                      |           | 
+ 568 | Stokes                                                                       |           | 
+ 569 | Stokes National Park                                                         |           | 
+ 426 | Munda Biddi Trail Walpole                                                    |        26 | Walpole
+ 571 | SW of Collie                                                                 |           | 
+ 444 | Nancy Peak                                                                   |         3 | Albany
+ 573 | Swamp Oak Campsite / SE of Dwellingup                                        |           | 
+ 574 | Swan Canning Riverpark                                                       |           | 
+ 449 | Neerabup National Park                                                       |        25 | Wanneroo
+ 576 | Swan Estuary                                                                 |           | 
+ 457 | Ngari Capes                                                                  |         5 | Busselton
+ 580 | The Goat Farm                                                                |           | 
+ 463 | North Bannister Bibbulmun Track                                              |        20 | Mundaring
+ 582 | Timber harvesting diversion - N of Collie - map 3b                           |           | 
+ 583 | Timber harvesting diversion - Quinninup - map 6a                             |           | 
+ 584 | Timber harvesting diversion - S of Donnybrook - map 4b                       |           | 
+ 585 | Timber harvesting diversion - Wellington Spur Trail - map 3b                 |           | 
+ 586 | Timber harvesting E of Dwellingup                                            |           | 
+ 589 | Tone Perup Nature Reserve                                                    |           | 
+ 590 | Tone-Perup Nature Reserve                                                    |           | 
+ 593 | Torndirrup                                                                   |           | 
+ 594 | Torndirrup National Park                                                     |           | 
+ 597 | Tunnel Creek                                                                 |           | 
+ 598 | Turner Hill                                                                  |           | 
+ 600 | Two Peoples Bay                                                              |           | 
+ 602 | Valley of the Giants Tree Top Walk                                           |           | 
+ 465 | North Kimberley Marine Park                                                  |        19 | Kununurra
+ 606 | W of Albany                                                                  |           | 
+ 607 | W of Margaret River                                                          |           | 
+ 608 | WA Parks and Reserves                                                        |           | 
+ 476 | One Tree Bridge                                                              |        23 | Pemberton
+ 477 | Ord River Regeneration Reserve                                               |        19 | Kununurra
+ 612 | Wallaroo Rock                                                                |           | 
+ 614 | Walpole Nornalup                                                             |           | 
+ 615 | Walpole Nornalup National Park                                               |           | 
+ 616 | Walyarta Conservation Park                                                   |           | 
+ 617 | Walyunga                                                                     |           | 
+ 620 | Warren                                                                       |           | 
+ 479 | Oyster Stacks                                                                |         8 | Milyering Visitor Centre
+ 622 | Warren State Forest                                                          |           | 
+ 623 | Warriedar Homestead campground                                               |           | 
+ 496 | Peron                                                                        |        24 | Denham
+ 625 | Waterfall Beach Spur Trail                                                   |           | 
+ 497 | Perth Hills Discovery Centre                                                 |        20 | Mundaring
+ 627 | Waychinicup                                                                  |           | 
+ 506 | Porongurup                                                                   |         3 | Albany
+ 629 | Wellington                                                                   |           | 
+ 507 | Porongurup National Park                                                     |         3 | Albany
+ 632 | West Cape Howe                                                               |           | 
+ 512 | Preston                                                                      |        13 | Collie
+ 513 | Prevelly                                                                     |         5 | Busselton
+ 516 | Proposed Nyinggulu Coastal Reserves - Gnaraloo zone                          |        34 | Exmouth District Office
+ 636 | Westralia Conservation Park - Wiilman Bilya Trail                            |           | 
+ 524 | Rapids Conservation Park                                                     |         5 | Busselton
+ 532 | Rusden Picnic Site                                                           |         5 | Busselton
+ 535 | Samphire Cove Nature Reserve                                                 |        31 | Mandurah
+ 641 | Wilbinga Conservation Park                                                   |           | 
+ 643 | William Bay                                                                  |           | 
+ 540 | Scott                                                                        |         5 | Busselton
+ 544 | Serpentine Falls                                                             |        20 | Mundaring
+ 647 | Wilson Inlet - Denmark                                                       |           | 
+ 650 | Wilyabrup Brook - Cape to Cape                                               |           | 
+ 651 | Windjana Gorge                                                               |           | 
+ 652 | Wolfe Creek Crater                                                           |           | 
+ 654 | Woodman Point                                                                |           | 
+ 655 | Woody Lake Nature Reserve                                                    |           | 
+ 657 | Wooroloo                                                                     |           | 
+ 658 | Wunaamin Conservation Park                                                   |           | 
+ 659 | Wungong                                                                      |           | 
+ 661 | Yaberoo-Budjara Heritage Trail                                               |           | 
+ 662 | Yalgorup                                                                     |           | 
+ 663 | Yalgorup National Park                                                       |           | 
+ 665 | Yanchep                                                                      |           | 
+ 666 | Yanchep National Park                                                        |           | 
+ 669 | Yellagonga                                                                   |           | 
+ 671 | Yornup State Forrest                                                         |           | 
+ 672 | Yourdamung Campsite                                                          |           | 
+ 673 | Yourdamung Campsite - Bibbulmun Track                                        |           | 
+   1 | 3 Ways                                                                       |           | 
+   5 | Alyi-wa Miya Group Campsite                                                  |           | 
+   8 | Arcadia Campsite                                                             |           | 
+   9 | Arcadia Group Campsite                                                       |           | 
+  11 | Arklow Mountain Bike Trails                                                  |           | 
+  16 | Balban and Yendicup Forest Blocks                                            |           | 
+  17 | Bald Head and Ismuth Hill                                                    |           | 
+  18 | Ball Creek Campsite                                                          |           | 
+  22 | Beavis Campsite                                                              |           | 
+  24 | Beedelup National Park                                                       |           | 
+  28 | Beraking Campsite                                                            |           | 
+  30 | Bibbulmun Track                                                              |           | 
+  31 | Bibbulmun Track - Beedelup National Park                                     |           | 
+  32 | Bibbulmun Track - Between Balingup and Spring Valley Road                    |           | 
+  35 | Bibbulmun Track - Map 6b                                                     |           | 
+  38 | Bibbulmun Track Blackwood                                                    |           | 
+  51 | Bibbulmun Track Helena National Park                                         |           | 
+  52 | Bibbulmun Track Jarrahdale                                                   |           | 
+  60 | Bibbulmun Track Preston                                                      |           | 
+  66 | Blackwood Campsite                                                           |           | 
+  68 | Bluff Knoll                                                                  |           | 
+  70 | Boarding House Campsite                                                      |           | 
+  71 | Boat Harbour Campsite                                                        |           | 
+  78 | Boranup Campground                                                           |           | 
+  79 | Boranup Drive                                                                |           | 
+  80 | Boylan Trail, Mt Lennard                                                     |           | 
+  85 | Brookton Campsite                                                            |           | 
+  88 | Bundegi Coastal Reserve, Jurabi Coastal Reserve                              |           | 
+  91 | Busselton Jetty                                                              |           | 
+  92 | Calgardup Cave                                                               |           | 
+  96 | Canning Campsite                                                             |           | 
+ 103 | Cape to Cape Track                                                           |           | 
+ 105 | Captain Fawcett Track                                                        |           | 
+ 107 | Cardac, Mooralup and Yeticup state forests                                   |           | 
+ 113 | Caveworks and Lake Cave                                                      |           | 
+ 114 | Chadoora Campsite                                                            |           | 
+ 116 | Chimney Trail Loop                                                           |           | 
+ 117 | Coalfields Highway                                                           |           | 
+ 125 | Conto Campground                                                             |           | 
+ 127 | Conto Springs (Conto Coastal Day Use site)                                   |           | 
+ 128 | Coral Bay                                                                    |           | 
+ 143 | Deanmill                                                                     |           | 
+ 144 | Denmark                                                                      |           | 
+ 152 | Dog Pool Campsite                                                            |           | 
+ 153 | Dog Road, Shannon National Park                                              |           | 
+ 154 | Dookanelly Campsite                                                          |           | 
+ 169 | Edel Land proposed National Park (Steep Point)                               |           | 
+ 173 | Ferguson Road                                                                |           | 
+ 177 | Flint Forest Block                                                           |           | 
+ 179 | Forsyths Mill, Perth Hills                                                   |           | 
+ 183 | Frankland River Campsite                                                     |           | 
+ 185 | Gardner Campsite                                                             |           | 
+ 186 | Gardner State Forest                                                         |           | 
+ 188 | Ghost House Trail                                                            |           | 
+ 191 | Giants Campsite                                                              |           | 
+ 192 | Giants Cave                                                                  |           | 
+ 200 | Gnangara Road                                                                |           | 
+ 203 | Goegrup Nature Reserve                                                       |           | 
+ 213 | Greater Beedelup National Park                                               |           | 
+ 215 | Greater Kingston National Park                                               |           | 
+ 221 | Gregory Brook Campsite                                                       |           | 
+ 223 | Grimwade Campsite                                                            |           | 
+ 224 | Gringer Creek Campsite                                                       |           | 
+ 225 | Grizzy Trail, Mt Lennard                                                     |           | 
+ 228 | Guniyan Binba Conservation Park                                              |           | 
+ 232 | Harewood Forest Walk Trail                                                   |           | 
+ 234 | Harris Dam Campsite                                                          |           | 
+ 235 | Harris Dam picnic area car park                                              |           | 
+ 236 | Harris River Dam                                                             |           | 
+ 238 | Harvey Quindanning Road                                                      |           | 
+ 240 | Helena and Aurora Ranges Conservation Park                                   |           | 
+ 241 | Helena Campsite                                                              |           | 
+ 242 | Helena National Park                                                         |           | 
+ 254 | Irwin Inlet                                                                  |           | 
+ 258 | Jarrahdene Campground                                                        |           | 
+ 259 | Jaurdi                                                                       |           | 
+ 264 | Judderbars Trail, Kalamunda Mountain Bike Network                            |           | 
+ 268 | Kalamunda                                                                    |           | 
+ 279 | Karri Corner                                                                 |           | 
+ 281 | Kensington                                                                   |           | 
+ 282 | Kent Street Weir                                                             |           | 
+ 283 | Keystone forest block                                                        |           | 
+ 288 | Kingston SF                                                                  |           | 
+ 295 | Lake Maringup Campsite                                                       |           | 
+ 301 | Lake Windabout Nature Reserve                                                |           | 
+ 312 | Lennard Track                                                                |           | 
+ 314 | Lesmurdie Falls                                                              |           | 
+ 319 | Long Point Campsite                                                          |           | 
+ 321 | Lucky Bay campground                                                         |           | 
+ 322 | Ludlow                                                                       |           | 
+ 324 | Lyalls Mill Campsite                                                         |           | 
+ 325 | Lyalls Mill Group Campsite                                                   |           | 
+ 326 | Mammoth Cave                                                                 |           | 
+ 339 | Margaret River                                                               |           | 
+ 340 | Margaret River - Rivermouth                                                  |           | 
+ 342 | Marrinup                                                                     |           | 
+ 343 | Martins Tank Campground                                                      |           | 
+ 345 | Mazzoletti Beach                                                             |           | 
+ 353 | Moingup Springs Campground- Stirling Range National Park                     |           | 
+ 354 | Monadnocks Campsite                                                          |           | 
+ 356 | Mornington Road                                                              |           | 
+ 358 | Mount Chance Campsite                                                        |           | 
+ 359 | Mount Cooke Campsite                                                         |           | 
+ 360 | Mount Dale Campsite                                                          |           | 
+ 364 | Mount Hassell                                                                |           | 
+ 366 | Mount Manning Nature Reserve-30.241864889916346, 119.640024393532            |           | 
+ 367 | Mount Manning Range Nature Reserve                                           |           | 
+ 372 | Mount Wells Campsite                                                         |           | 
+ 373 | Mt Chance Campsite                                                           |           | 
+ 374 | Mt Clare Campsite                                                            |           | 
+ 375 | Mt Cooke Campsite                                                            |           | 
+ 376 | Mt Cooke Group Campsite                                                      |           | 
+ 377 | Mt Dale                                                                      |           | 
+ 378 | Mt Dale Campsite                                                             |           | 
+ 383 | Mt Lennard Trails                                                            |           | 
+ 385 | Mt Lindsay National Park                                                     |           | 
+ 386 | Mt Manning                                                                   |           | 
+ 388 | Mt Roe National Park                                                         |           | 
+ 389 | Mt Wells Campsite                                                            |           | 
+ 391 | Munda Biddi Pemberton                                                        |           | 
+ 395 | Munda Biddi Trail - Jarrahwood                                               |           | 
+ 398 | Munda Biddi Trail - West of Denmark                                          |           | 
+ 401 | Munda Biddi Trail Collie                                                     |           | 
+ 405 | Munda Biddi Trail Dwellingup                                                 |           | 
+ 408 | Munda Biddi Trail Jarrahdale                                                 |           | 
+ 421 | Munda Biddi Trail North Dandalup                                             |           | 
+ 425 | Munda Biddi Trail Quinninup                                                  |           | 
+ 428 | Munda Biddi Trail Walpole to Denmark map 8a and 8b                           |           | 
+ 429 | Munda Biddi Trail Willowdale                                                 |           | 
+ 433 | Mungalup Road                                                                |           | 
+ 434 | Murray Campsite                                                              |           | 
+ 436 | Murray Valley mountain bike trails                                           |           | 
+ 437 | Murray Valley Trails                                                         |           | 
+ 439 | Muttonbird Campsite                                                          |           | 
+ 445 | Nanga Road Bridge                                                            |           | 
+ 450 | Nelson Road, Shannon National Park                                           |           | 
+ 451 | Nerang Campsite                                                              |           | 
+ 453 | Newells Road and carpark                                                     |           | 
+ 454 | Newells Road and parking area                                                |           | 
+ 456 | Ngamoowalem Conservation Park                                                |           | 
+ 460 | Ningaloo Marine Park                                                         |           | 
+ 461 | Noggerup Campsite                                                            |           | 
+ 468 | Nullaki Campsite                                                             |           | 
+ 471 | Nuytsland Nature Reserve                                                     |           | 
+ 481 | Palgarup State Forest                                                        |           | 
+ 483 | Parry Beach                                                                  |           | 
+ 484 | Parry Inlet - Denmark                                                        |           | 
+ 486 | Peaceful Bay                                                                 |           | 
+ 488 | penguin hangout                                                              |           | 
+ 498 | Pile Road                                                                    |           | 
+ 500 | Pinjar Motorcycle Area                                                       |           | 
+ 505 | Point Road Campsite                                                          |           | 
+ 508 | Possum Springs Campsite                                                      |           | 
+ 518 | Purnululu Conservation Reserve                                               |           | 
+ 519 | Quarram Nature Reserve                                                       |           | 
+ 520 | Rame Head Campsite                                                           |           | 
+ 526 | Redgate Beach                                                                |           | 
+ 537 | Sandpatch Campsite                                                           |           | 
+ 539 | Schafer Campsite                                                             |           | 
+ 545 | Serpentine National Park                                                     |           | 
+ 554 | Snottygobble Loop, Grass Tree Hollow and Goblin Swamp                        |           | 
+ 559 | State Forest 65                                                              |           | 
+ 563 | Stirling Range National Park                                                 |           | 
+ 570 | Stony Hill                                                                   |           | 
+ 572 | Swamp Oak Campsite                                                           |           | 
+ 575 | Swan Coastal Plains Walk Trail                                               |           | 
+ 577 | Swan River                                                                   |           | 
+ 581 | The Summit Trail, Mount Augustus National Park                               |           | 
+ 587 | Tom Road Campsite                                                            |           | 
+ 588 | Tone Perup Nature Reseerve                                                   |           | 
+ 591 | Torbay Campsite                                                              |           | 
+ 592 | Torbay Inlet                                                                 |           | 
+ 595 | Tourism Awards WA 2018                                                       |           | 
+ 601 | Upper Swan River                                                             |           | 
+ 605 | Victoria Rock Nature Reserve                                                 |           | 
+ 609 | Waalegh Campsite                                                             |           | 
+ 610 | Wadandi Track (Engine Road)                                                  |           | 
+ 621 | Warren Campsite                                                              |           | 
+ 624 | Warroora south access road                                                   |           | 
+ 626 | Waterous Loop Trail                                                          |           | 
+ 628 | Weld State Forest, Mount Frankland National Park                             |           | 
+ 630 | Wellington Dam                                                               |           | 
+ 633 | West Cape Howe Campsite                                                      |           | 
+ 634 | West Swan                                                                    |           | 
+ 635 | Westralia Conservation Park                                                  |           | 
+ 638 | White Horse Hill Campsite                                                    |           | 
+ 639 | White Horse Hills Campsite                                                   |           | 
+ 640 | Wiilman Bilya Trail                                                          |           | 
+ 644 | William Bay Campsite                                                         |           | 
+ 645 | Wilman Bilya - Connell Rd                                                    |           | 
+ 646 | Wilman Bilya - Ferguson Rd                                                   |           | 
+ 649 | Wiltshire-Butler National Park                                               |           | 
+ 656 | Woolbales Campsite                                                           |           | 
+ 660 | Yabberup Campsite                                                            |           | 
+ 664 | Yallingup Beach Road                                                         |           | 
+ 667 | Yanmah and Wheatley                                                          |           | 
+ 668 | Year 1 Trail, Murray Valley Mountain Bike Trails                             |           | 
+ 548 | Shell Beach                                                                  |        24 | Denham
+ 549 | Shelter Bay Campground                                                       |        24 | Denham
+ 555 | Solitary - Dwellingup Mountain Bike Trail                                    |        20 | Mundaring
+ 556 | South East Nannup State Forest                                               |        17 | Kalgoorlie
+ 561 | Steep Point Campground                                                       |        24 | Denham
+ 578 | Tathra                                                                       |        16 | Jurien Bay
+ 579 | Ten Mile Brook Dam                                                           |         5 | Busselton
+ 596 | Tuart Forest                                                                 |         5 | Busselton
+ 599 | Turquoise Bay                                                                |         8 | Milyering Visitor Centre
+ 603 | Victoria Dam Reservoir                                                       |        20 | Mundaring
+ 604 | Victoria Rock                                                                |        17 | Kalgoorlie
+ 611 | Walarra Mindi (Mt Hart)                                                      |         4 | Broome
+ 613 | Walpole and Nornalup Inlets                                                  |        26 | Walpole
+ 618 | Wanagarren Nature Reserve                                                    |        16 | Jurien Bay
+ 619 | Wandoo                                                                       |        20 | Mundaring
+ 631 | Wellington National Park                                                     |        13 | Collie
+ 637 | Whicher                                                                      |         5 | Busselton
+ 642 | Wilga State Forest                                                           |         5 | Busselton
+ 648 | Wiltshire-Butler                                                             |         5 | Busselton
+ 653 | Wooditjup                                                                    |         5 | Busselton
+ 670 | Yelverton                                                                    |         5 | Busselton
+(673 rows)
+
